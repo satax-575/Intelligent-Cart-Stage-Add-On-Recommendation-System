@@ -1,0 +1,2001 @@
+restaurant_id,cuisine_type,price_range,rating,avg_prep_time,city
+1,Italian,medium,4.0,20,Pune
+2,Beverages,medium,4.1,34,Hyderabad
+3,North Indian,medium,3.4,22,Delhi
+4,Fast Food,low,3.7,18,Chennai
+5,South Indian,medium,3.9,26,Bangalore
+6,Chinese,low,3.6,33,Hyderabad
+7,Continental,medium,3.7,34,Delhi
+8,Beverages,high,3.8,15,Hyderabad
+9,South Indian,low,3.7,33,Kolkata
+10,Italian,medium,4.2,18,Mumbai
+11,Biryani,medium,3.3,19,Delhi
+12,Continental,medium,3.2,34,Bangalore
+13,North Indian,low,3.8,33,Delhi
+14,South Indian,medium,3.8,15,Delhi
+15,Chinese,medium,3.8,33,Chennai
+16,Continental,medium,3.5,34,Mumbai
+17,Pizza,medium,4.0,16,Bangalore
+18,Chinese,medium,3.4,15,Pune
+19,Biryani,low,3.4,24,Delhi
+20,Fast Food,low,3.0,51,Kolkata
+21,Italian,medium,4.4,21,Kolkata
+22,Pizza,high,4.3,42,Delhi
+23,Beverages,low,3.9,28,Pune
+24,South Indian,medium,4.6,41,Pune
+25,Italian,low,3.4,40,Bangalore
+26,Biryani,medium,3.5,37,Mumbai
+27,Beverages,medium,5.0,23,Kolkata
+28,Chinese,low,4.3,25,Hyderabad
+29,North Indian,medium,3.8,24,Mumbai
+30,Pizza,medium,4.0,19,Pune
+31,Fast Food,medium,3.3,22,Hyderabad
+32,Continental,low,4.6,26,Pune
+33,Italian,high,4.5,38,Chennai
+34,Beverages,high,4.2,40,Kolkata
+35,Fast Food,low,3.2,45,Delhi
+36,Beverages,medium,4.1,24,Bangalore
+37,Fast Food,low,4.8,33,Delhi
+38,Fast Food,low,3.0,22,Bangalore
+39,Desserts,medium,4.2,20,Mumbai
+40,Italian,medium,4.2,30,Hyderabad
+41,South Indian,high,4.2,41,Chennai
+42,South Indian,medium,3.4,19,Mumbai
+43,Italian,low,3.7,33,Kolkata
+44,South Indian,low,3.4,39,Hyderabad
+45,Biryani,medium,4.2,35,Bangalore
+46,Pizza,medium,4.0,26,Pune
+47,South Indian,low,4.2,51,Chennai
+48,Beverages,low,3.0,30,Pune
+49,Continental,low,4.2,37,Pune
+50,North Indian,medium,4.7,35,Delhi
+51,North Indian,low,3.5,27,Bangalore
+52,Italian,medium,3.9,23,Mumbai
+53,South Indian,low,3.7,15,Mumbai
+54,Chinese,low,4.0,47,Delhi
+55,Italian,high,4.4,34,Bangalore
+56,Fast Food,medium,4.2,34,Hyderabad
+57,Continental,medium,3.5,15,Bangalore
+58,Biryani,medium,3.0,33,Kolkata
+59,Biryani,medium,3.8,17,Kolkata
+60,Pizza,medium,3.0,31,Pune
+61,Chinese,medium,3.5,39,Mumbai
+62,Fast Food,medium,3.3,44,Bangalore
+63,Fast Food,medium,3.1,15,Mumbai
+64,Fast Food,low,3.6,18,Kolkata
+65,Continental,medium,4.1,30,Hyderabad
+66,Biryani,low,3.7,33,Kolkata
+67,South Indian,medium,4.3,32,Pune
+68,South Indian,medium,3.3,26,Hyderabad
+69,Continental,medium,3.9,42,Pune
+70,Pizza,medium,4.0,24,Mumbai
+71,North Indian,low,3.0,36,Mumbai
+72,Beverages,medium,4.4,43,Chennai
+73,Italian,low,3.3,38,Chennai
+74,Fast Food,high,4.0,38,Mumbai
+75,Desserts,high,4.1,35,Delhi
+76,Continental,low,4.5,18,Hyderabad
+77,Chinese,high,4.3,37,Kolkata
+78,Beverages,medium,3.9,35,Delhi
+79,South Indian,medium,3.5,27,Delhi
+80,Pizza,medium,3.4,35,Pune
+81,North Indian,medium,3.4,17,Kolkata
+82,Biryani,medium,3.6,34,Hyderabad
+83,South Indian,medium,3.6,35,Kolkata
+84,Continental,low,3.4,30,Pune
+85,North Indian,low,3.0,28,Mumbai
+86,Fast Food,low,3.5,42,Bangalore
+87,Continental,high,4.2,35,Bangalore
+88,Chinese,low,3.5,25,Bangalore
+89,Beverages,high,3.8,37,Chennai
+90,Pizza,medium,3.6,25,Chennai
+91,Chinese,medium,3.9,23,Delhi
+92,North Indian,medium,3.4,35,Chennai
+93,Beverages,medium,3.5,19,Delhi
+94,Pizza,medium,4.6,40,Bangalore
+95,North Indian,high,4.2,32,Delhi
+96,Continental,medium,3.7,15,Mumbai
+97,Desserts,low,3.3,30,Hyderabad
+98,North Indian,medium,3.4,39,Pune
+99,Beverages,low,3.7,39,Kolkata
+100,North Indian,medium,3.5,20,Delhi
+101,Biryani,medium,3.8,26,Delhi
+102,South Indian,low,3.0,35,Pune
+103,Italian,medium,3.8,21,Kolkata
+104,Biryani,low,3.0,51,Bangalore
+105,Italian,low,3.0,35,Delhi
+106,Desserts,medium,3.3,34,Delhi
+107,Pizza,medium,4.1,37,Mumbai
+108,Italian,low,3.4,48,Chennai
+109,Desserts,medium,4.4,33,Kolkata
+110,Biryani,medium,3.7,19,Chennai
+111,Chinese,high,4.2,33,Chennai
+112,Beverages,medium,3.8,24,Mumbai
+113,Biryani,medium,4.2,23,Mumbai
+114,Desserts,medium,3.4,34,Pune
+115,Fast Food,high,3.9,32,Delhi
+116,Beverages,medium,3.8,40,Bangalore
+117,North Indian,high,4.3,20,Pune
+118,Pizza,medium,3.5,21,Hyderabad
+119,Continental,medium,3.6,23,Kolkata
+120,Chinese,medium,3.3,37,Pune
+121,Chinese,low,3.9,15,Hyderabad
+122,Continental,medium,4.3,43,Kolkata
+123,Desserts,medium,3.2,30,Bangalore
+124,Italian,low,3.4,21,Mumbai
+125,Biryani,medium,4.0,47,Mumbai
+126,Beverages,low,3.5,30,Bangalore
+127,South Indian,medium,3.7,18,Chennai
+128,North Indian,high,4.5,31,Chennai
+129,South Indian,medium,3.4,16,Hyderabad
+130,Continental,medium,4.1,26,Kolkata
+131,Continental,medium,3.6,25,Hyderabad
+132,Italian,medium,3.7,30,Pune
+133,Beverages,medium,3.5,21,Delhi
+134,Pizza,low,3.1,28,Hyderabad
+135,North Indian,medium,4.0,21,Pune
+136,Italian,low,3.5,18,Hyderabad
+137,Fast Food,medium,4.2,25,Mumbai
+138,South Indian,high,4.4,42,Chennai
+139,Biryani,medium,3.6,31,Pune
+140,Beverages,low,3.8,33,Chennai
+141,Continental,medium,3.5,34,Kolkata
+142,North Indian,high,4.0,19,Kolkata
+143,Fast Food,medium,4.0,23,Hyderabad
+144,Biryani,medium,3.8,29,Hyderabad
+145,Pizza,medium,3.9,22,Delhi
+146,Biryani,low,4.3,42,Mumbai
+147,Beverages,high,4.1,42,Chennai
+148,Italian,low,3.3,37,Chennai
+149,Beverages,high,3.9,34,Mumbai
+150,South Indian,high,3.8,43,Kolkata
+151,Biryani,high,4.1,34,Delhi
+152,Fast Food,low,3.5,31,Bangalore
+153,Biryani,medium,3.7,17,Mumbai
+154,Continental,high,4.9,36,Kolkata
+155,Italian,medium,3.9,20,Bangalore
+156,Italian,high,4.0,34,Hyderabad
+157,Italian,medium,3.3,24,Bangalore
+158,Fast Food,low,3.9,42,Bangalore
+159,Chinese,medium,4.6,36,Pune
+160,Pizza,low,4.7,47,Mumbai
+161,Continental,medium,3.7,19,Pune
+162,North Indian,medium,3.5,26,Mumbai
+163,Italian,medium,4.1,16,Chennai
+164,North Indian,medium,3.9,35,Delhi
+165,Pizza,high,4.6,38,Delhi
+166,Continental,high,4.5,33,Chennai
+167,South Indian,high,4.1,35,Kolkata
+168,Fast Food,medium,3.5,42,Chennai
+169,Desserts,medium,3.8,15,Mumbai
+170,Italian,medium,4.0,17,Pune
+171,Fast Food,high,4.1,29,Kolkata
+172,Continental,medium,3.6,18,Bangalore
+173,Beverages,medium,3.1,23,Mumbai
+174,South Indian,high,4.5,31,Delhi
+175,Continental,high,3.7,32,Kolkata
+176,Continental,low,3.5,18,Hyderabad
+177,South Indian,high,4.5,33,Bangalore
+178,Italian,low,3.0,18,Kolkata
+179,Pizza,low,3.8,24,Pune
+180,Beverages,low,3.2,41,Hyderabad
+181,Biryani,low,3.5,15,Bangalore
+182,Pizza,high,4.2,46,Chennai
+183,Chinese,medium,4.0,37,Bangalore
+184,Beverages,low,3.0,23,Chennai
+185,Fast Food,medium,3.7,27,Mumbai
+186,Beverages,medium,3.7,43,Delhi
+187,South Indian,low,3.0,32,Chennai
+188,Italian,low,3.1,43,Bangalore
+189,North Indian,medium,3.7,24,Delhi
+190,Fast Food,medium,3.3,29,Chennai
+191,Biryani,medium,3.2,20,Delhi
+192,Desserts,low,3.0,42,Mumbai
+193,Chinese,medium,3.6,35,Bangalore
+194,Chinese,medium,3.1,19,Pune
+195,Pizza,medium,3.9,32,Kolkata
+196,Continental,high,4.3,39,Mumbai
+197,Fast Food,low,3.7,37,Pune
+198,Biryani,low,3.3,18,Pune
+199,Biryani,low,3.7,49,Delhi
+200,Biryani,low,3.7,19,Bangalore
+201,Fast Food,medium,3.8,29,Chennai
+202,Pizza,high,4.6,16,Delhi
+203,Continental,medium,3.4,15,Mumbai
+204,Pizza,medium,4.1,18,Kolkata
+205,Desserts,medium,4.3,34,Chennai
+206,Pizza,medium,4.7,28,Chennai
+207,Italian,high,4.2,18,Delhi
+208,Italian,medium,3.7,32,Hyderabad
+209,Desserts,high,4.5,32,Pune
+210,Pizza,low,3.3,39,Kolkata
+211,Continental,high,3.7,25,Kolkata
+212,Desserts,low,3.2,15,Mumbai
+213,North Indian,medium,3.8,24,Bangalore
+214,Desserts,low,3.9,45,Bangalore
+215,Beverages,medium,3.8,24,Kolkata
+216,Biryani,medium,3.3,50,Bangalore
+217,Desserts,medium,3.5,40,Delhi
+218,Continental,medium,4.3,34,Hyderabad
+219,Biryani,medium,3.8,24,Chennai
+220,Italian,medium,4.0,25,Delhi
+221,Pizza,low,3.6,20,Kolkata
+222,Chinese,low,3.3,35,Bangalore
+223,South Indian,medium,4.2,43,Bangalore
+224,South Indian,medium,3.1,17,Hyderabad
+225,Fast Food,low,3.0,17,Bangalore
+226,Pizza,high,4.2,33,Bangalore
+227,Continental,medium,4.0,46,Pune
+228,Pizza,high,4.2,32,Mumbai
+229,Continental,medium,3.9,44,Chennai
+230,Beverages,low,3.0,45,Hyderabad
+231,Italian,low,3.0,41,Kolkata
+232,South Indian,low,3.6,28,Chennai
+233,Beverages,medium,3.7,28,Mumbai
+234,Biryani,low,3.0,30,Mumbai
+235,Fast Food,high,4.4,45,Pune
+236,Desserts,medium,3.7,37,Mumbai
+237,South Indian,low,3.0,24,Mumbai
+238,Continental,low,4.0,24,Bangalore
+239,Chinese,high,4.0,49,Pune
+240,Pizza,high,4.3,46,Bangalore
+241,Italian,high,4.4,16,Hyderabad
+242,South Indian,high,4.5,32,Pune
+243,Fast Food,low,3.6,33,Kolkata
+244,Beverages,low,4.0,34,Hyderabad
+245,Biryani,medium,3.2,25,Hyderabad
+246,Biryani,low,3.0,34,Bangalore
+247,Fast Food,medium,4.1,26,Pune
+248,Desserts,high,4.0,30,Pune
+249,North Indian,medium,3.0,27,Bangalore
+250,Biryani,low,4.1,37,Bangalore
+251,Biryani,low,4.0,35,Hyderabad
+252,Biryani,medium,3.8,40,Hyderabad
+253,Chinese,medium,3.6,15,Bangalore
+254,South Indian,medium,3.8,46,Kolkata
+255,Italian,low,3.0,25,Kolkata
+256,South Indian,low,3.6,26,Delhi
+257,Beverages,high,4.6,43,Mumbai
+258,South Indian,low,3.4,33,Hyderabad
+259,South Indian,low,3.8,35,Hyderabad
+260,Desserts,medium,3.7,30,Kolkata
+261,North Indian,medium,3.7,59,Pune
+262,Desserts,medium,4.3,29,Hyderabad
+263,North Indian,medium,3.4,31,Bangalore
+264,North Indian,medium,4.2,33,Mumbai
+265,Desserts,low,3.2,21,Hyderabad
+266,Continental,high,4.0,25,Bangalore
+267,Chinese,high,4.5,36,Kolkata
+268,Continental,medium,4.3,20,Mumbai
+269,Fast Food,high,4.3,22,Delhi
+270,Continental,high,3.9,25,Bangalore
+271,Beverages,high,4.2,37,Mumbai
+272,North Indian,low,3.8,20,Chennai
+273,South Indian,medium,3.6,26,Delhi
+274,Chinese,high,4.0,15,Pune
+275,Beverages,low,4.1,30,Bangalore
+276,Fast Food,medium,3.8,32,Chennai
+277,Desserts,medium,3.4,37,Chennai
+278,Chinese,medium,3.7,37,Pune
+279,North Indian,high,4.0,15,Chennai
+280,Italian,medium,3.7,21,Kolkata
+281,Beverages,medium,4.0,21,Kolkata
+282,Italian,high,4.6,43,Kolkata
+283,Beverages,medium,4.0,15,Kolkata
+284,South Indian,medium,3.0,29,Hyderabad
+285,Beverages,medium,3.5,15,Chennai
+286,North Indian,medium,4.1,15,Chennai
+287,Italian,medium,4.2,26,Pune
+288,Continental,medium,3.5,32,Chennai
+289,Beverages,low,3.7,15,Pune
+290,Fast Food,high,4.5,44,Delhi
+291,Continental,medium,4.1,29,Chennai
+292,Beverages,medium,3.7,15,Hyderabad
+293,North Indian,medium,4.6,15,Delhi
+294,South Indian,medium,4.0,46,Mumbai
+295,Desserts,high,4.5,33,Chennai
+296,Chinese,high,4.2,24,Kolkata
+297,South Indian,medium,4.0,19,Kolkata
+298,Pizza,low,4.2,23,Mumbai
+299,Pizza,medium,3.8,16,Mumbai
+300,Biryani,high,4.9,15,Bangalore
+301,South Indian,high,4.0,34,Chennai
+302,North Indian,medium,3.8,38,Delhi
+303,Beverages,medium,3.5,33,Pune
+304,South Indian,high,4.6,15,Delhi
+305,Desserts,medium,3.3,30,Chennai
+306,Fast Food,low,3.9,27,Delhi
+307,Desserts,low,3.7,28,Bangalore
+308,Desserts,high,3.9,37,Delhi
+309,Beverages,low,3.8,40,Pune
+310,North Indian,medium,3.7,15,Mumbai
+311,Desserts,high,4.3,25,Pune
+312,Biryani,high,4.6,23,Kolkata
+313,Desserts,low,3.7,43,Mumbai
+314,Beverages,high,3.9,55,Chennai
+315,Fast Food,medium,3.9,42,Mumbai
+316,Beverages,medium,4.0,39,Delhi
+317,Continental,medium,3.6,31,Chennai
+318,Fast Food,high,4.5,28,Pune
+319,North Indian,medium,3.8,33,Bangalore
+320,Biryani,medium,3.5,25,Mumbai
+321,Italian,medium,3.0,15,Mumbai
+322,Beverages,medium,4.3,45,Delhi
+323,North Indian,low,3.0,30,Delhi
+324,North Indian,medium,4.3,41,Hyderabad
+325,Fast Food,medium,3.5,27,Hyderabad
+326,South Indian,high,4.4,55,Bangalore
+327,Beverages,low,3.3,28,Mumbai
+328,South Indian,medium,3.7,47,Hyderabad
+329,Chinese,medium,3.1,37,Kolkata
+330,Beverages,low,4.3,31,Mumbai
+331,Biryani,medium,4.1,53,Kolkata
+332,North Indian,low,4.3,15,Hyderabad
+333,Italian,medium,3.4,37,Hyderabad
+334,Pizza,medium,3.9,41,Bangalore
+335,Chinese,low,3.7,29,Delhi
+336,South Indian,medium,4.4,23,Delhi
+337,Fast Food,high,4.4,39,Hyderabad
+338,North Indian,medium,4.8,29,Mumbai
+339,Chinese,low,3.0,31,Kolkata
+340,Italian,medium,4.3,21,Hyderabad
+341,Beverages,medium,3.9,36,Bangalore
+342,Continental,medium,3.7,32,Kolkata
+343,Chinese,medium,3.8,19,Pune
+344,Pizza,medium,3.4,15,Hyderabad
+345,Continental,medium,4.0,37,Kolkata
+346,Continental,medium,4.1,38,Chennai
+347,Desserts,medium,4.0,26,Hyderabad
+348,Beverages,medium,3.9,19,Hyderabad
+349,Fast Food,low,3.3,19,Pune
+350,Beverages,low,3.8,28,Kolkata
+351,North Indian,low,3.6,17,Pune
+352,Biryani,low,3.6,28,Pune
+353,Continental,medium,3.4,37,Mumbai
+354,Pizza,high,4.3,31,Pune
+355,Beverages,medium,3.2,20,Mumbai
+356,Chinese,low,3.5,41,Hyderabad
+357,Italian,low,3.5,21,Pune
+358,Chinese,low,3.0,33,Mumbai
+359,Continental,medium,3.2,15,Hyderabad
+360,Fast Food,low,3.4,18,Bangalore
+361,South Indian,medium,3.7,34,Chennai
+362,Pizza,high,4.5,24,Chennai
+363,Pizza,high,4.7,34,Bangalore
+364,Biryani,low,3.5,23,Chennai
+365,Italian,low,3.5,26,Chennai
+366,Chinese,high,4.3,15,Chennai
+367,Desserts,low,3.8,26,Pune
+368,Pizza,medium,3.6,21,Kolkata
+369,Desserts,high,4.1,31,Mumbai
+370,Continental,medium,4.4,21,Hyderabad
+371,Pizza,high,4.3,33,Chennai
+372,North Indian,medium,3.5,15,Bangalore
+373,South Indian,high,4.0,23,Pune
+374,North Indian,low,3.0,32,Bangalore
+375,Chinese,high,4.1,19,Mumbai
+376,Fast Food,medium,4.0,36,Mumbai
+377,Chinese,high,4.4,37,Mumbai
+378,Fast Food,medium,4.2,33,Kolkata
+379,Biryani,high,4.4,22,Pune
+380,Chinese,high,4.0,40,Pune
+381,North Indian,low,3.4,23,Chennai
+382,South Indian,low,4.6,33,Kolkata
+383,Pizza,medium,4.3,33,Mumbai
+384,Biryani,low,3.7,27,Hyderabad
+385,Pizza,medium,3.4,30,Mumbai
+386,Continental,high,4.6,33,Hyderabad
+387,Beverages,medium,4.2,19,Hyderabad
+388,North Indian,medium,3.8,41,Chennai
+389,South Indian,low,4.1,15,Chennai
+390,Continental,high,4.5,29,Mumbai
+391,North Indian,low,3.8,37,Mumbai
+392,Beverages,medium,3.5,34,Mumbai
+393,Fast Food,medium,4.5,35,Bangalore
+394,South Indian,high,4.0,32,Hyderabad
+395,Continental,high,4.3,18,Bangalore
+396,Pizza,medium,3.8,40,Mumbai
+397,Beverages,high,4.1,37,Hyderabad
+398,South Indian,medium,4.2,22,Chennai
+399,Chinese,medium,4.1,22,Pune
+400,North Indian,high,4.0,34,Hyderabad
+401,Desserts,high,4.5,22,Pune
+402,Fast Food,low,4.0,47,Kolkata
+403,Biryani,low,4.4,41,Hyderabad
+404,Pizza,medium,3.9,25,Mumbai
+405,Beverages,high,4.3,33,Mumbai
+406,South Indian,low,3.2,31,Chennai
+407,Desserts,medium,3.9,21,Delhi
+408,Biryani,low,3.3,40,Delhi
+409,Fast Food,medium,3.6,40,Chennai
+410,Continental,medium,3.1,15,Bangalore
+411,North Indian,high,3.7,23,Hyderabad
+412,Pizza,medium,3.8,36,Pune
+413,Desserts,medium,3.1,30,Delhi
+414,Desserts,low,3.6,45,Hyderabad
+415,South Indian,high,4.5,22,Hyderabad
+416,Beverages,low,3.1,49,Hyderabad
+417,South Indian,high,4.6,37,Kolkata
+418,Italian,low,3.5,38,Mumbai
+419,Beverages,low,3.0,22,Pune
+420,Chinese,high,3.8,15,Mumbai
+421,Beverages,low,3.5,17,Mumbai
+422,Fast Food,low,3.0,27,Hyderabad
+423,South Indian,medium,3.6,44,Delhi
+424,Biryani,low,3.5,15,Bangalore
+425,Beverages,high,4.1,36,Delhi
+426,Beverages,low,3.8,46,Hyderabad
+427,Desserts,low,3.0,24,Bangalore
+428,Beverages,low,3.0,25,Delhi
+429,Beverages,low,3.0,31,Mumbai
+430,Desserts,low,4.0,36,Bangalore
+431,Chinese,medium,3.8,35,Bangalore
+432,Continental,medium,4.0,28,Delhi
+433,Desserts,high,3.7,44,Hyderabad
+434,Italian,high,3.9,50,Mumbai
+435,Beverages,medium,3.1,27,Chennai
+436,South Indian,medium,3.9,27,Chennai
+437,Beverages,low,3.1,22,Bangalore
+438,Italian,medium,3.8,37,Hyderabad
+439,Beverages,medium,3.9,37,Pune
+440,Pizza,medium,3.3,23,Hyderabad
+441,Beverages,medium,3.4,26,Hyderabad
+442,Desserts,high,4.7,15,Bangalore
+443,Chinese,medium,3.7,31,Delhi
+444,Fast Food,high,4.4,36,Bangalore
+445,Biryani,medium,3.9,35,Mumbai
+446,Pizza,medium,3.8,32,Mumbai
+447,South Indian,medium,3.4,24,Bangalore
+448,Chinese,low,4.3,37,Kolkata
+449,Continental,high,4.4,15,Hyderabad
+450,Pizza,high,4.1,25,Kolkata
+451,Chinese,medium,3.9,25,Pune
+452,Italian,medium,4.1,16,Pune
+453,Chinese,medium,3.9,39,Hyderabad
+454,North Indian,medium,3.3,42,Bangalore
+455,Desserts,low,4.3,42,Mumbai
+456,Pizza,low,3.1,30,Kolkata
+457,South Indian,low,4.1,26,Pune
+458,Continental,low,3.9,17,Mumbai
+459,Desserts,low,3.6,20,Bangalore
+460,Chinese,low,3.8,41,Pune
+461,Chinese,low,4.0,26,Delhi
+462,Chinese,low,3.6,39,Kolkata
+463,Chinese,low,3.3,21,Pune
+464,Fast Food,medium,3.9,32,Hyderabad
+465,Biryani,low,4.6,15,Kolkata
+466,Chinese,medium,3.7,25,Pune
+467,Biryani,low,4.1,15,Chennai
+468,Pizza,medium,3.9,15,Kolkata
+469,Pizza,low,4.0,23,Chennai
+470,North Indian,high,4.6,16,Hyderabad
+471,Chinese,medium,3.0,32,Hyderabad
+472,Continental,low,3.2,47,Chennai
+473,South Indian,low,4.2,34,Pune
+474,Biryani,high,4.5,18,Hyderabad
+475,Fast Food,medium,3.5,27,Mumbai
+476,Italian,high,4.2,18,Bangalore
+477,Fast Food,medium,4.4,15,Bangalore
+478,Desserts,low,3.8,24,Hyderabad
+479,Fast Food,high,4.0,48,Kolkata
+480,Italian,medium,3.4,20,Mumbai
+481,Biryani,low,4.0,31,Bangalore
+482,Italian,low,3.3,15,Hyderabad
+483,Continental,low,3.3,25,Kolkata
+484,North Indian,low,3.4,24,Hyderabad
+485,Continental,low,3.9,29,Bangalore
+486,Pizza,low,3.0,31,Kolkata
+487,North Indian,high,3.8,23,Chennai
+488,Continental,medium,4.1,42,Hyderabad
+489,Pizza,low,3.4,43,Delhi
+490,North Indian,medium,4.6,33,Kolkata
+491,Biryani,medium,3.6,35,Hyderabad
+492,Desserts,medium,3.4,26,Bangalore
+493,Italian,medium,3.5,33,Hyderabad
+494,North Indian,medium,4.2,34,Pune
+495,North Indian,medium,4.0,36,Hyderabad
+496,Biryani,medium,3.7,38,Pune
+497,Italian,high,4.1,35,Kolkata
+498,Chinese,low,3.7,32,Kolkata
+499,North Indian,medium,3.7,17,Delhi
+500,Beverages,medium,3.8,27,Bangalore
+501,Continental,medium,3.9,25,Chennai
+502,North Indian,high,4.3,31,Pune
+503,Fast Food,high,4.0,27,Mumbai
+504,Biryani,low,3.0,20,Chennai
+505,Beverages,high,3.7,27,Kolkata
+506,Biryani,medium,3.7,29,Delhi
+507,Fast Food,high,3.8,32,Delhi
+508,Chinese,medium,3.3,37,Pune
+509,Biryani,high,3.9,31,Mumbai
+510,Chinese,medium,4.7,23,Chennai
+511,Italian,low,3.6,19,Hyderabad
+512,Biryani,medium,3.8,33,Chennai
+513,Chinese,medium,3.0,42,Mumbai
+514,North Indian,high,4.1,15,Kolkata
+515,South Indian,high,4.3,31,Kolkata
+516,Biryani,high,4.2,22,Kolkata
+517,Continental,low,3.0,24,Bangalore
+518,South Indian,low,3.5,28,Chennai
+519,Italian,high,4.2,26,Pune
+520,Beverages,medium,3.8,29,Kolkata
+521,Fast Food,low,3.7,42,Pune
+522,Desserts,high,4.7,36,Mumbai
+523,North Indian,low,3.5,32,Bangalore
+524,Chinese,low,4.0,23,Delhi
+525,Beverages,medium,4.1,27,Bangalore
+526,Biryani,medium,4.0,21,Chennai
+527,Desserts,medium,3.3,31,Mumbai
+528,Biryani,high,3.8,29,Mumbai
+529,Chinese,low,3.9,28,Chennai
+530,Chinese,medium,3.3,33,Bangalore
+531,Fast Food,low,3.0,41,Pune
+532,Chinese,high,4.1,26,Kolkata
+533,Biryani,medium,3.1,35,Hyderabad
+534,Chinese,low,3.6,18,Hyderabad
+535,Biryani,low,3.3,48,Delhi
+536,Beverages,high,4.5,44,Bangalore
+537,South Indian,medium,3.9,44,Hyderabad
+538,Pizza,high,3.9,24,Delhi
+539,Fast Food,medium,3.5,23,Hyderabad
+540,Italian,medium,3.1,15,Bangalore
+541,Chinese,high,4.5,29,Pune
+542,Fast Food,medium,3.6,27,Bangalore
+543,North Indian,medium,3.2,43,Hyderabad
+544,Biryani,high,4.1,26,Mumbai
+545,North Indian,medium,4.0,27,Bangalore
+546,Biryani,low,3.7,42,Chennai
+547,Biryani,high,4.1,21,Hyderabad
+548,Chinese,medium,3.4,38,Kolkata
+549,Desserts,low,3.0,46,Pune
+550,Desserts,medium,4.3,37,Chennai
+551,North Indian,low,3.2,29,Chennai
+552,North Indian,low,4.3,43,Mumbai
+553,Biryani,high,3.6,16,Kolkata
+554,Pizza,low,3.4,25,Mumbai
+555,South Indian,low,3.7,44,Hyderabad
+556,Pizza,medium,3.2,20,Bangalore
+557,Chinese,low,3.3,16,Mumbai
+558,Desserts,medium,3.4,45,Bangalore
+559,South Indian,low,3.8,15,Pune
+560,Chinese,medium,3.4,15,Hyderabad
+561,Pizza,medium,3.3,44,Kolkata
+562,Chinese,medium,4.3,32,Mumbai
+563,Fast Food,medium,4.1,27,Delhi
+564,Chinese,medium,3.6,53,Chennai
+565,Pizza,low,3.7,38,Chennai
+566,Chinese,low,3.0,15,Pune
+567,Fast Food,medium,3.8,25,Delhi
+568,Italian,medium,3.2,24,Hyderabad
+569,Beverages,medium,3.9,33,Bangalore
+570,Fast Food,medium,3.3,36,Hyderabad
+571,Continental,low,3.0,19,Bangalore
+572,Fast Food,medium,3.9,31,Kolkata
+573,Desserts,low,3.0,19,Chennai
+574,Continental,medium,4.1,33,Kolkata
+575,Fast Food,medium,4.1,37,Delhi
+576,Chinese,medium,4.1,29,Kolkata
+577,Beverages,low,3.0,30,Pune
+578,North Indian,high,4.1,31,Delhi
+579,Continental,low,3.4,30,Hyderabad
+580,Italian,medium,4.1,24,Mumbai
+581,Pizza,medium,4.2,28,Hyderabad
+582,Pizza,low,4.3,35,Mumbai
+583,Italian,medium,3.3,38,Pune
+584,Chinese,high,4.3,32,Pune
+585,Continental,medium,4.0,15,Pune
+586,Biryani,low,3.0,47,Hyderabad
+587,Biryani,medium,3.7,34,Chennai
+588,Continental,high,4.5,51,Pune
+589,Biryani,medium,5.0,31,Kolkata
+590,North Indian,medium,3.4,27,Kolkata
+591,Beverages,medium,4.3,27,Pune
+592,Chinese,low,3.6,33,Chennai
+593,Pizza,medium,4.2,34,Chennai
+594,Desserts,low,4.4,28,Pune
+595,Fast Food,low,4.1,25,Hyderabad
+596,Biryani,medium,3.9,22,Bangalore
+597,Fast Food,low,3.0,45,Mumbai
+598,Chinese,medium,3.5,15,Hyderabad
+599,Italian,low,3.4,38,Delhi
+600,Continental,low,3.0,43,Pune
+601,South Indian,low,3.6,23,Mumbai
+602,Biryani,medium,3.9,20,Bangalore
+603,Chinese,low,3.0,17,Delhi
+604,Pizza,medium,3.9,38,Delhi
+605,Beverages,medium,4.0,23,Bangalore
+606,South Indian,medium,4.3,40,Chennai
+607,Biryani,medium,3.5,51,Bangalore
+608,Biryani,medium,3.6,35,Kolkata
+609,Continental,medium,4.3,48,Kolkata
+610,Desserts,medium,4.5,28,Delhi
+611,South Indian,low,3.6,20,Bangalore
+612,Fast Food,high,4.3,30,Mumbai
+613,Italian,low,3.4,44,Pune
+614,Italian,high,4.2,25,Delhi
+615,Pizza,medium,4.2,15,Bangalore
+616,Continental,medium,3.9,36,Pune
+617,Pizza,medium,3.8,43,Delhi
+618,Desserts,low,3.7,24,Pune
+619,South Indian,medium,4.4,15,Kolkata
+620,Continental,low,4.2,27,Mumbai
+621,Italian,low,3.7,35,Bangalore
+622,Italian,medium,3.5,22,Pune
+623,Continental,low,3.7,39,Hyderabad
+624,Fast Food,high,4.1,25,Bangalore
+625,North Indian,medium,4.2,26,Kolkata
+626,North Indian,medium,3.5,29,Mumbai
+627,South Indian,low,3.6,32,Delhi
+628,Biryani,low,4.2,33,Pune
+629,Fast Food,medium,3.6,39,Hyderabad
+630,Continental,medium,3.6,21,Chennai
+631,Biryani,low,3.6,36,Mumbai
+632,Beverages,low,3.0,34,Bangalore
+633,Chinese,low,3.4,37,Mumbai
+634,Fast Food,medium,4.1,29,Bangalore
+635,Continental,medium,3.0,18,Pune
+636,South Indian,medium,3.3,42,Delhi
+637,North Indian,medium,3.7,17,Mumbai
+638,Desserts,medium,4.5,30,Bangalore
+639,Fast Food,low,3.6,22,Hyderabad
+640,Desserts,medium,3.5,39,Mumbai
+641,North Indian,medium,4.3,39,Kolkata
+642,Beverages,medium,3.3,26,Mumbai
+643,Chinese,medium,3.3,38,Mumbai
+644,Chinese,medium,3.4,28,Chennai
+645,Italian,high,4.0,22,Mumbai
+646,South Indian,medium,3.5,17,Bangalore
+647,Beverages,medium,4.8,21,Mumbai
+648,South Indian,medium,4.2,15,Bangalore
+649,Continental,low,3.9,27,Delhi
+650,Fast Food,medium,4.0,23,Mumbai
+651,Italian,high,4.7,18,Pune
+652,Beverages,medium,3.7,30,Hyderabad
+653,Desserts,low,3.1,52,Mumbai
+654,Fast Food,high,4.2,34,Delhi
+655,Italian,medium,4.3,54,Pune
+656,Pizza,low,3.0,45,Bangalore
+657,South Indian,low,3.8,33,Delhi
+658,Biryani,high,3.7,22,Chennai
+659,Pizza,medium,4.0,21,Kolkata
+660,Chinese,medium,3.0,17,Bangalore
+661,Fast Food,high,4.5,41,Hyderabad
+662,Italian,medium,3.5,19,Bangalore
+663,North Indian,low,3.7,30,Bangalore
+664,Fast Food,medium,3.7,34,Chennai
+665,Italian,high,4.2,21,Bangalore
+666,Beverages,low,3.6,31,Bangalore
+667,North Indian,low,3.0,33,Pune
+668,Beverages,medium,3.7,35,Mumbai
+669,Desserts,low,3.4,39,Kolkata
+670,Beverages,low,3.9,30,Delhi
+671,Beverages,low,3.1,32,Hyderabad
+672,Italian,high,4.2,29,Pune
+673,Continental,medium,4.0,33,Bangalore
+674,Chinese,medium,3.8,31,Hyderabad
+675,Chinese,low,3.9,23,Kolkata
+676,Pizza,low,3.0,28,Hyderabad
+677,Italian,low,4.6,30,Hyderabad
+678,South Indian,medium,4.2,24,Pune
+679,Biryani,high,4.3,33,Hyderabad
+680,Chinese,low,3.5,24,Delhi
+681,Biryani,medium,3.0,15,Delhi
+682,Fast Food,high,4.2,46,Hyderabad
+683,Fast Food,low,3.0,21,Bangalore
+684,South Indian,high,4.4,30,Bangalore
+685,North Indian,medium,4.0,35,Delhi
+686,Fast Food,medium,4.0,29,Chennai
+687,Chinese,low,3.3,18,Pune
+688,Chinese,medium,3.8,25,Chennai
+689,Fast Food,medium,3.2,29,Hyderabad
+690,Italian,medium,3.8,50,Mumbai
+691,South Indian,medium,4.1,15,Hyderabad
+692,Pizza,medium,3.9,32,Hyderabad
+693,North Indian,medium,4.4,38,Kolkata
+694,Biryani,medium,3.8,40,Pune
+695,Italian,medium,4.2,34,Pune
+696,Desserts,medium,3.6,16,Hyderabad
+697,Beverages,low,3.0,26,Chennai
+698,Chinese,low,3.7,29,Chennai
+699,Italian,high,3.9,30,Chennai
+700,North Indian,low,3.3,29,Hyderabad
+701,North Indian,medium,3.0,33,Hyderabad
+702,Continental,low,3.7,37,Hyderabad
+703,South Indian,medium,3.6,24,Pune
+704,Italian,medium,3.9,37,Bangalore
+705,Desserts,medium,3.9,18,Hyderabad
+706,Desserts,low,4.1,22,Hyderabad
+707,Pizza,medium,3.5,45,Chennai
+708,Fast Food,medium,3.6,49,Hyderabad
+709,Beverages,medium,3.6,31,Delhi
+710,Desserts,medium,3.7,32,Pune
+711,Italian,medium,3.5,47,Kolkata
+712,North Indian,medium,4.0,36,Pune
+713,Pizza,high,4.1,25,Pune
+714,Pizza,medium,3.7,36,Bangalore
+715,Desserts,low,4.2,15,Pune
+716,Chinese,medium,3.7,32,Hyderabad
+717,North Indian,medium,3.8,32,Mumbai
+718,South Indian,low,4.1,25,Hyderabad
+719,Biryani,low,3.6,28,Mumbai
+720,Chinese,high,4.7,25,Mumbai
+721,North Indian,medium,3.8,20,Hyderabad
+722,Continental,medium,3.4,32,Kolkata
+723,Continental,medium,3.6,33,Chennai
+724,Continental,medium,3.5,41,Mumbai
+725,Pizza,low,3.5,21,Kolkata
+726,South Indian,medium,3.5,15,Hyderabad
+727,Italian,high,4.8,49,Mumbai
+728,Biryani,medium,3.5,21,Mumbai
+729,South Indian,medium,4.4,36,Delhi
+730,South Indian,medium,3.5,43,Mumbai
+731,Continental,high,3.8,29,Bangalore
+732,Chinese,medium,3.9,44,Hyderabad
+733,Desserts,low,3.0,15,Chennai
+734,Italian,low,4.6,15,Chennai
+735,Continental,high,4.1,35,Kolkata
+736,Desserts,high,4.2,25,Mumbai
+737,Beverages,low,3.8,27,Chennai
+738,North Indian,medium,3.7,24,Hyderabad
+739,Desserts,high,4.1,16,Chennai
+740,North Indian,low,3.7,26,Kolkata
+741,Pizza,high,4.2,31,Delhi
+742,Italian,low,3.0,43,Delhi
+743,Desserts,medium,3.8,39,Delhi
+744,Continental,low,3.0,21,Kolkata
+745,Pizza,low,3.0,15,Kolkata
+746,Desserts,low,3.9,19,Hyderabad
+747,Fast Food,low,4.7,19,Chennai
+748,Chinese,medium,4.0,28,Mumbai
+749,Chinese,medium,3.0,35,Kolkata
+750,Chinese,medium,3.9,20,Bangalore
+751,Biryani,high,4.7,15,Pune
+752,Continental,low,3.8,30,Kolkata
+753,Continental,low,3.6,18,Mumbai
+754,North Indian,high,4.0,18,Pune
+755,Desserts,low,3.5,41,Kolkata
+756,Biryani,medium,3.0,16,Mumbai
+757,Italian,high,4.2,17,Kolkata
+758,Continental,high,4.5,31,Hyderabad
+759,Biryani,low,3.0,24,Kolkata
+760,Biryani,medium,3.5,18,Delhi
+761,Continental,medium,4.0,34,Hyderabad
+762,Fast Food,low,3.0,16,Mumbai
+763,Italian,low,4.5,22,Bangalore
+764,Biryani,low,3.4,34,Pune
+765,Fast Food,medium,3.3,34,Hyderabad
+766,South Indian,high,4.6,27,Mumbai
+767,Italian,high,4.2,25,Chennai
+768,North Indian,medium,3.7,30,Delhi
+769,Italian,low,3.3,20,Pune
+770,Pizza,medium,4.1,38,Mumbai
+771,Pizza,medium,4.8,17,Pune
+772,Beverages,low,3.5,31,Chennai
+773,North Indian,medium,3.4,22,Chennai
+774,Chinese,medium,3.1,30,Pune
+775,Continental,medium,4.3,15,Bangalore
+776,South Indian,low,3.9,29,Mumbai
+777,Biryani,low,3.7,15,Pune
+778,Desserts,high,4.0,46,Chennai
+779,Beverages,medium,4.0,15,Kolkata
+780,Italian,low,3.8,28,Bangalore
+781,North Indian,medium,3.8,20,Delhi
+782,Italian,high,5.0,24,Pune
+783,Italian,medium,3.9,23,Chennai
+784,Biryani,low,3.0,38,Pune
+785,Italian,medium,3.2,53,Bangalore
+786,Fast Food,high,4.5,31,Delhi
+787,Pizza,medium,3.5,15,Bangalore
+788,Desserts,medium,3.6,37,Hyderabad
+789,Biryani,low,3.6,15,Mumbai
+790,North Indian,low,3.0,29,Chennai
+791,South Indian,high,4.4,19,Pune
+792,South Indian,medium,4.4,41,Delhi
+793,South Indian,medium,3.8,44,Chennai
+794,Fast Food,low,4.1,51,Bangalore
+795,Italian,medium,3.2,27,Delhi
+796,Beverages,high,4.5,28,Mumbai
+797,Desserts,low,4.4,29,Kolkata
+798,Continental,medium,3.8,44,Mumbai
+799,Pizza,low,3.5,26,Chennai
+800,North Indian,medium,3.7,28,Delhi
+801,Desserts,high,4.5,29,Pune
+802,South Indian,low,3.6,39,Delhi
+803,Fast Food,medium,4.4,38,Delhi
+804,Desserts,medium,3.8,15,Mumbai
+805,North Indian,medium,3.9,42,Pune
+806,South Indian,low,3.1,29,Bangalore
+807,Fast Food,low,3.6,26,Kolkata
+808,Desserts,medium,4.2,18,Delhi
+809,Beverages,low,3.5,38,Chennai
+810,Desserts,low,4.4,18,Pune
+811,Chinese,medium,3.6,38,Kolkata
+812,Continental,high,4.3,44,Hyderabad
+813,South Indian,high,3.9,29,Kolkata
+814,Italian,medium,4.2,37,Pune
+815,Fast Food,medium,3.0,27,Delhi
+816,North Indian,medium,3.8,31,Mumbai
+817,Continental,low,3.9,33,Pune
+818,Fast Food,medium,4.0,28,Chennai
+819,North Indian,medium,4.1,15,Mumbai
+820,Beverages,medium,3.7,26,Pune
+821,Continental,medium,4.0,45,Chennai
+822,Beverages,medium,4.0,46,Kolkata
+823,Continental,low,3.4,33,Mumbai
+824,Desserts,high,4.4,47,Delhi
+825,Pizza,medium,3.8,45,Kolkata
+826,Chinese,medium,4.0,15,Hyderabad
+827,Italian,medium,3.8,18,Pune
+828,Chinese,medium,3.1,34,Hyderabad
+829,Pizza,high,4.0,27,Bangalore
+830,North Indian,low,3.2,25,Hyderabad
+831,Continental,medium,3.7,17,Pune
+832,Desserts,low,3.3,21,Hyderabad
+833,Beverages,high,4.1,19,Bangalore
+834,South Indian,medium,3.5,26,Pune
+835,Italian,medium,4.0,26,Kolkata
+836,Desserts,medium,3.2,37,Mumbai
+837,North Indian,high,4.2,37,Hyderabad
+838,Desserts,medium,4.1,39,Pune
+839,Desserts,low,3.6,27,Kolkata
+840,South Indian,medium,4.1,19,Bangalore
+841,Continental,low,3.7,15,Pune
+842,Chinese,medium,4.2,44,Pune
+843,Continental,high,4.4,21,Bangalore
+844,Continental,medium,3.2,32,Pune
+845,Biryani,medium,3.5,28,Kolkata
+846,Beverages,high,4.2,39,Hyderabad
+847,South Indian,high,4.1,38,Chennai
+848,Continental,high,4.9,30,Kolkata
+849,Biryani,medium,3.7,41,Pune
+850,Italian,high,4.2,37,Bangalore
+851,South Indian,high,4.2,42,Delhi
+852,Pizza,medium,3.7,35,Pune
+853,South Indian,high,4.1,45,Mumbai
+854,Chinese,medium,3.8,23,Delhi
+855,South Indian,high,4.3,37,Pune
+856,Fast Food,low,4.1,42,Pune
+857,South Indian,medium,3.5,33,Delhi
+858,Pizza,medium,3.4,30,Pune
+859,Chinese,low,3.6,18,Hyderabad
+860,Chinese,medium,3.5,35,Bangalore
+861,Italian,low,3.5,31,Mumbai
+862,Fast Food,low,3.0,15,Pune
+863,Fast Food,medium,3.8,31,Hyderabad
+864,Biryani,medium,3.8,25,Delhi
+865,Pizza,low,4.0,26,Pune
+866,Pizza,low,3.2,17,Kolkata
+867,Pizza,medium,4.3,31,Pune
+868,North Indian,low,4.2,26,Mumbai
+869,South Indian,high,4.7,19,Kolkata
+870,Biryani,high,4.1,21,Delhi
+871,North Indian,medium,4.4,34,Mumbai
+872,Biryani,high,3.9,23,Mumbai
+873,Chinese,medium,3.5,23,Bangalore
+874,Italian,medium,4.0,22,Pune
+875,South Indian,low,3.0,22,Hyderabad
+876,South Indian,low,3.0,42,Hyderabad
+877,South Indian,low,3.3,18,Bangalore
+878,Italian,low,4.5,30,Pune
+879,South Indian,medium,3.6,25,Hyderabad
+880,Desserts,high,4.0,41,Hyderabad
+881,Biryani,low,4.0,21,Delhi
+882,Italian,medium,3.5,25,Chennai
+883,Italian,low,4.1,30,Chennai
+884,Italian,low,3.4,24,Hyderabad
+885,Biryani,low,4.4,29,Chennai
+886,Chinese,medium,3.5,32,Delhi
+887,North Indian,high,4.1,35,Bangalore
+888,Beverages,low,3.3,36,Pune
+889,Beverages,medium,3.4,15,Kolkata
+890,Continental,low,3.8,45,Delhi
+891,Continental,medium,3.6,38,Hyderabad
+892,Chinese,low,3.4,16,Bangalore
+893,North Indian,medium,4.1,26,Chennai
+894,Fast Food,medium,4.0,33,Hyderabad
+895,Continental,medium,4.1,19,Delhi
+896,South Indian,high,3.8,28,Pune
+897,Continental,medium,3.7,39,Chennai
+898,Desserts,low,3.5,15,Mumbai
+899,Biryani,high,4.3,32,Mumbai
+900,Biryani,high,4.1,24,Kolkata
+901,Desserts,high,4.2,47,Pune
+902,Beverages,high,4.5,29,Pune
+903,Beverages,medium,3.7,46,Chennai
+904,Italian,high,4.2,15,Pune
+905,Biryani,low,3.7,41,Hyderabad
+906,South Indian,medium,4.6,24,Bangalore
+907,Biryani,medium,4.1,30,Kolkata
+908,Biryani,high,3.7,25,Chennai
+909,Desserts,medium,4.5,42,Hyderabad
+910,Continental,high,3.8,26,Kolkata
+911,Biryani,high,4.0,29,Delhi
+912,Continental,medium,3.9,22,Delhi
+913,Pizza,medium,5.0,33,Mumbai
+914,Desserts,low,3.8,21,Hyderabad
+915,Chinese,medium,3.6,28,Mumbai
+916,Continental,low,3.6,26,Kolkata
+917,South Indian,low,3.0,47,Mumbai
+918,Continental,medium,3.5,23,Kolkata
+919,Pizza,high,3.9,33,Bangalore
+920,Pizza,low,3.3,46,Kolkata
+921,Desserts,high,4.3,31,Kolkata
+922,Chinese,low,3.3,45,Bangalore
+923,Chinese,high,4.5,33,Bangalore
+924,Beverages,medium,4.9,32,Chennai
+925,North Indian,low,3.8,44,Hyderabad
+926,Beverages,low,3.0,36,Mumbai
+927,Pizza,medium,4.2,21,Bangalore
+928,Italian,medium,3.1,37,Hyderabad
+929,Fast Food,medium,3.2,15,Mumbai
+930,North Indian,high,4.2,32,Pune
+931,North Indian,medium,3.8,20,Chennai
+932,Pizza,high,4.3,39,Pune
+933,Italian,low,3.9,28,Bangalore
+934,Fast Food,medium,3.8,25,Kolkata
+935,Beverages,high,4.3,19,Chennai
+936,Fast Food,high,4.5,23,Mumbai
+937,Italian,medium,3.9,24,Hyderabad
+938,Chinese,medium,3.7,35,Chennai
+939,Chinese,medium,3.5,25,Chennai
+940,South Indian,low,3.9,45,Mumbai
+941,Fast Food,medium,4.1,15,Pune
+942,Fast Food,low,3.6,28,Delhi
+943,South Indian,low,3.7,18,Bangalore
+944,Fast Food,high,4.5,36,Hyderabad
+945,Italian,medium,3.9,27,Hyderabad
+946,Continental,low,3.6,32,Delhi
+947,Italian,medium,4.3,24,Chennai
+948,Pizza,medium,3.0,47,Kolkata
+949,Desserts,low,3.0,23,Delhi
+950,Pizza,low,3.9,17,Hyderabad
+951,North Indian,low,3.2,44,Pune
+952,Pizza,medium,4.3,35,Mumbai
+953,South Indian,medium,3.6,33,Hyderabad
+954,Biryani,medium,4.4,29,Hyderabad
+955,Italian,high,4.2,22,Pune
+956,Desserts,high,4.6,34,Kolkata
+957,South Indian,medium,3.2,34,Pune
+958,North Indian,high,3.7,20,Mumbai
+959,Pizza,medium,3.4,23,Hyderabad
+960,Desserts,low,3.6,19,Mumbai
+961,Italian,medium,4.0,55,Mumbai
+962,Beverages,medium,4.0,27,Hyderabad
+963,Biryani,low,3.4,38,Mumbai
+964,South Indian,high,4.0,37,Kolkata
+965,Fast Food,low,3.0,43,Pune
+966,Beverages,medium,3.9,52,Mumbai
+967,Italian,medium,3.8,23,Pune
+968,Continental,low,4.0,34,Bangalore
+969,Beverages,medium,3.7,38,Bangalore
+970,Desserts,low,3.4,36,Pune
+971,Fast Food,low,4.2,18,Kolkata
+972,South Indian,medium,4.5,27,Mumbai
+973,Desserts,medium,3.5,15,Bangalore
+974,Chinese,medium,3.9,35,Hyderabad
+975,Pizza,low,3.1,22,Mumbai
+976,North Indian,medium,3.9,30,Delhi
+977,Chinese,medium,3.4,45,Mumbai
+978,Italian,low,4.3,28,Chennai
+979,Desserts,medium,3.4,42,Mumbai
+980,Desserts,high,4.2,23,Chennai
+981,North Indian,low,3.0,40,Pune
+982,Biryani,medium,4.1,41,Bangalore
+983,Beverages,medium,3.0,33,Bangalore
+984,Beverages,medium,3.7,27,Bangalore
+985,North Indian,low,3.4,36,Mumbai
+986,Italian,low,3.7,35,Pune
+987,Desserts,medium,3.5,44,Kolkata
+988,Fast Food,medium,3.4,28,Delhi
+989,South Indian,medium,4.1,40,Mumbai
+990,North Indian,low,3.4,15,Hyderabad
+991,South Indian,medium,3.5,57,Bangalore
+992,Continental,medium,3.9,31,Chennai
+993,Biryani,low,3.2,36,Chennai
+994,Pizza,high,4.6,16,Hyderabad
+995,Italian,low,3.0,15,Bangalore
+996,North Indian,high,4.3,23,Kolkata
+997,Biryani,high,4.5,33,Delhi
+998,Pizza,high,4.6,15,Pune
+999,South Indian,medium,3.5,27,Hyderabad
+1000,North Indian,low,3.6,21,Kolkata
+1001,Continental,low,3.0,27,Delhi
+1002,Fast Food,medium,3.7,23,Pune
+1003,Chinese,medium,3.4,38,Mumbai
+1004,Pizza,medium,3.7,15,Bangalore
+1005,Chinese,medium,3.5,27,Kolkata
+1006,Biryani,high,4.3,15,Kolkata
+1007,Continental,medium,3.7,29,Hyderabad
+1008,Biryani,low,3.2,20,Hyderabad
+1009,Italian,medium,4.1,28,Bangalore
+1010,Biryani,low,4.2,35,Kolkata
+1011,Beverages,medium,4.2,38,Kolkata
+1012,North Indian,medium,4.0,31,Kolkata
+1013,Desserts,medium,3.6,44,Kolkata
+1014,Italian,high,4.4,15,Chennai
+1015,Continental,low,4.7,15,Kolkata
+1016,Chinese,low,4.3,32,Mumbai
+1017,Fast Food,low,4.6,30,Delhi
+1018,North Indian,medium,3.6,22,Pune
+1019,Beverages,high,4.9,43,Pune
+1020,Pizza,low,3.6,51,Pune
+1021,Desserts,low,3.2,34,Delhi
+1022,Biryani,low,4.1,24,Chennai
+1023,Beverages,medium,3.6,25,Chennai
+1024,South Indian,medium,3.8,20,Mumbai
+1025,North Indian,low,3.4,42,Kolkata
+1026,Desserts,high,4.2,28,Delhi
+1027,Beverages,low,3.1,35,Kolkata
+1028,Desserts,low,3.1,34,Hyderabad
+1029,North Indian,medium,3.9,59,Hyderabad
+1030,Pizza,medium,3.8,25,Delhi
+1031,Pizza,high,3.9,15,Kolkata
+1032,Beverages,medium,3.4,51,Pune
+1033,Italian,high,4.5,39,Delhi
+1034,Chinese,medium,3.9,33,Pune
+1035,Fast Food,medium,4.3,39,Kolkata
+1036,Continental,low,3.6,15,Delhi
+1037,Beverages,high,4.6,38,Kolkata
+1038,Biryani,low,3.7,39,Mumbai
+1039,South Indian,low,3.1,28,Hyderabad
+1040,Fast Food,medium,4.0,21,Bangalore
+1041,Continental,low,3.0,28,Kolkata
+1042,Continental,medium,3.6,38,Kolkata
+1043,Italian,medium,4.3,15,Pune
+1044,Pizza,medium,3.3,39,Mumbai
+1045,Biryani,low,3.4,41,Delhi
+1046,Desserts,high,4.4,38,Mumbai
+1047,Desserts,medium,4.5,19,Hyderabad
+1048,Fast Food,medium,4.2,40,Hyderabad
+1049,South Indian,medium,3.6,42,Chennai
+1050,Biryani,medium,4.1,20,Kolkata
+1051,Desserts,medium,4.4,33,Delhi
+1052,Desserts,medium,3.6,22,Kolkata
+1053,Biryani,medium,3.9,28,Mumbai
+1054,Pizza,medium,3.6,31,Kolkata
+1055,Continental,high,4.4,32,Hyderabad
+1056,Continental,medium,3.9,28,Chennai
+1057,Desserts,medium,3.7,19,Pune
+1058,Continental,low,3.5,30,Delhi
+1059,South Indian,medium,4.1,31,Delhi
+1060,Biryani,medium,3.5,36,Pune
+1061,Beverages,high,4.0,23,Pune
+1062,Biryani,medium,3.7,17,Mumbai
+1063,Pizza,medium,3.5,15,Bangalore
+1064,Beverages,medium,4.0,49,Hyderabad
+1065,Pizza,medium,4.1,15,Delhi
+1066,Biryani,medium,3.5,26,Kolkata
+1067,North Indian,medium,4.2,26,Bangalore
+1068,Fast Food,medium,4.6,35,Delhi
+1069,Chinese,high,4.5,32,Bangalore
+1070,Desserts,low,3.9,34,Delhi
+1071,Biryani,low,4.2,42,Delhi
+1072,Biryani,medium,3.5,37,Hyderabad
+1073,Beverages,low,3.8,37,Kolkata
+1074,Italian,low,4.0,25,Mumbai
+1075,North Indian,low,3.2,34,Delhi
+1076,Desserts,high,3.5,17,Hyderabad
+1077,Chinese,high,4.5,34,Bangalore
+1078,South Indian,medium,4.5,49,Pune
+1079,North Indian,low,3.2,43,Mumbai
+1080,Biryani,low,4.3,17,Mumbai
+1081,Pizza,low,3.7,34,Kolkata
+1082,Chinese,low,3.5,50,Chennai
+1083,Italian,low,4.0,21,Mumbai
+1084,Pizza,medium,3.3,28,Mumbai
+1085,Continental,high,4.3,25,Kolkata
+1086,Pizza,medium,3.5,20,Hyderabad
+1087,Desserts,high,4.1,34,Kolkata
+1088,Fast Food,medium,3.9,32,Bangalore
+1089,Desserts,medium,4.0,32,Pune
+1090,North Indian,medium,3.5,32,Kolkata
+1091,Pizza,low,3.6,35,Kolkata
+1092,Continental,low,3.8,42,Pune
+1093,Chinese,medium,4.0,15,Bangalore
+1094,North Indian,low,3.4,31,Bangalore
+1095,North Indian,high,4.3,30,Delhi
+1096,Beverages,low,3.8,23,Pune
+1097,Desserts,low,4.0,25,Bangalore
+1098,Italian,medium,3.6,35,Mumbai
+1099,Italian,high,3.9,23,Delhi
+1100,Beverages,high,4.2,46,Pune
+1101,Continental,low,3.4,34,Chennai
+1102,South Indian,medium,3.3,38,Hyderabad
+1103,Fast Food,medium,4.0,35,Pune
+1104,Pizza,low,3.0,27,Kolkata
+1105,Chinese,high,4.3,39,Chennai
+1106,Italian,low,3.8,20,Pune
+1107,Italian,low,4.0,15,Kolkata
+1108,Continental,medium,3.8,33,Mumbai
+1109,Beverages,medium,4.0,20,Delhi
+1110,Continental,low,4.2,15,Bangalore
+1111,Pizza,medium,3.4,23,Delhi
+1112,Continental,high,4.0,37,Bangalore
+1113,Chinese,medium,3.7,33,Delhi
+1114,Continental,low,3.6,19,Chennai
+1115,Pizza,high,4.3,24,Bangalore
+1116,Desserts,low,3.7,35,Pune
+1117,North Indian,medium,3.9,22,Chennai
+1118,South Indian,low,4.0,26,Hyderabad
+1119,Desserts,low,3.1,31,Bangalore
+1120,South Indian,low,3.3,30,Chennai
+1121,Biryani,high,3.8,34,Bangalore
+1122,Continental,medium,3.0,38,Hyderabad
+1123,South Indian,medium,4.0,35,Mumbai
+1124,North Indian,medium,3.5,19,Bangalore
+1125,Beverages,low,3.0,31,Kolkata
+1126,South Indian,high,4.0,29,Pune
+1127,Continental,medium,4.1,49,Mumbai
+1128,Fast Food,medium,4.0,36,Delhi
+1129,North Indian,medium,3.4,19,Delhi
+1130,South Indian,high,4.3,30,Pune
+1131,Biryani,high,4.0,34,Bangalore
+1132,Pizza,medium,3.8,32,Hyderabad
+1133,Biryani,medium,3.6,15,Hyderabad
+1134,Chinese,high,4.6,42,Bangalore
+1135,Pizza,low,3.5,21,Kolkata
+1136,Fast Food,low,3.2,23,Mumbai
+1137,Continental,low,3.2,22,Pune
+1138,Italian,medium,3.5,25,Kolkata
+1139,Biryani,low,3.0,29,Bangalore
+1140,Chinese,medium,3.7,17,Bangalore
+1141,Italian,medium,3.4,34,Delhi
+1142,Pizza,medium,3.7,27,Kolkata
+1143,Chinese,medium,3.8,27,Delhi
+1144,North Indian,low,3.7,34,Delhi
+1145,Italian,low,3.5,29,Kolkata
+1146,Fast Food,high,4.4,32,Hyderabad
+1147,North Indian,high,4.3,15,Hyderabad
+1148,Chinese,low,4.0,15,Chennai
+1149,South Indian,medium,3.0,21,Kolkata
+1150,Pizza,medium,3.8,35,Mumbai
+1151,Fast Food,low,3.8,15,Delhi
+1152,Biryani,high,4.2,27,Kolkata
+1153,Continental,medium,3.7,38,Delhi
+1154,Biryani,high,3.8,33,Delhi
+1155,Desserts,high,3.9,26,Kolkata
+1156,South Indian,low,3.7,26,Chennai
+1157,South Indian,medium,3.5,35,Chennai
+1158,Desserts,medium,4.0,20,Bangalore
+1159,Italian,low,3.4,37,Kolkata
+1160,Fast Food,high,3.8,32,Chennai
+1161,Biryani,high,4.3,42,Bangalore
+1162,North Indian,medium,4.3,22,Mumbai
+1163,Fast Food,low,3.0,23,Pune
+1164,Biryani,medium,3.5,39,Mumbai
+1165,Desserts,medium,3.6,36,Chennai
+1166,Desserts,low,3.2,31,Chennai
+1167,Beverages,low,3.3,42,Pune
+1168,Fast Food,low,3.0,15,Hyderabad
+1169,Biryani,medium,3.7,34,Mumbai
+1170,Italian,low,3.0,33,Chennai
+1171,Continental,low,3.8,40,Hyderabad
+1172,Chinese,high,4.3,37,Bangalore
+1173,Biryani,medium,3.7,15,Chennai
+1174,Beverages,medium,3.6,22,Mumbai
+1175,Pizza,medium,3.0,45,Bangalore
+1176,Fast Food,medium,4.1,32,Chennai
+1177,Chinese,low,3.0,15,Mumbai
+1178,Biryani,medium,4.1,35,Mumbai
+1179,Continental,medium,4.1,15,Delhi
+1180,Fast Food,high,4.1,23,Hyderabad
+1181,Beverages,low,3.3,23,Chennai
+1182,South Indian,low,3.0,23,Hyderabad
+1183,Beverages,high,4.8,38,Mumbai
+1184,North Indian,medium,3.5,23,Hyderabad
+1185,Fast Food,high,4.3,37,Chennai
+1186,Pizza,medium,3.4,35,Chennai
+1187,Fast Food,medium,4.3,22,Delhi
+1188,Italian,medium,3.7,15,Delhi
+1189,Continental,medium,3.9,18,Chennai
+1190,Fast Food,low,3.4,22,Mumbai
+1191,Beverages,medium,4.1,27,Delhi
+1192,Fast Food,medium,4.5,39,Hyderabad
+1193,North Indian,medium,3.7,17,Mumbai
+1194,Continental,low,4.5,15,Pune
+1195,Beverages,low,3.0,15,Pune
+1196,Chinese,low,4.0,19,Chennai
+1197,Pizza,medium,3.8,15,Delhi
+1198,Chinese,high,4.3,35,Kolkata
+1199,Desserts,medium,3.3,37,Delhi
+1200,South Indian,medium,4.3,38,Chennai
+1201,South Indian,high,4.3,53,Pune
+1202,Continental,low,3.9,28,Bangalore
+1203,North Indian,medium,4.1,15,Bangalore
+1204,Chinese,medium,3.6,30,Delhi
+1205,North Indian,medium,3.3,44,Pune
+1206,North Indian,medium,3.7,31,Chennai
+1207,Beverages,low,3.7,38,Chennai
+1208,Italian,medium,4.2,15,Kolkata
+1209,Desserts,medium,3.7,27,Kolkata
+1210,South Indian,high,4.3,34,Delhi
+1211,Biryani,high,4.5,41,Mumbai
+1212,Continental,low,3.0,24,Hyderabad
+1213,Chinese,low,3.3,25,Delhi
+1214,Biryani,medium,3.3,24,Pune
+1215,Fast Food,high,3.7,15,Hyderabad
+1216,Fast Food,low,3.4,18,Pune
+1217,Chinese,medium,3.8,21,Mumbai
+1218,South Indian,medium,3.6,17,Delhi
+1219,Fast Food,low,3.9,48,Mumbai
+1220,Chinese,low,3.8,15,Delhi
+1221,Chinese,medium,4.1,20,Mumbai
+1222,Desserts,low,3.9,35,Mumbai
+1223,Desserts,low,3.0,27,Bangalore
+1224,South Indian,medium,4.3,47,Chennai
+1225,South Indian,medium,4.3,42,Pune
+1226,Chinese,high,4.2,31,Delhi
+1227,North Indian,high,3.7,33,Chennai
+1228,Continental,medium,3.9,41,Hyderabad
+1229,Desserts,medium,4.0,25,Hyderabad
+1230,Italian,high,4.2,27,Bangalore
+1231,Continental,medium,3.8,24,Bangalore
+1232,Chinese,medium,4.2,15,Chennai
+1233,South Indian,medium,3.4,39,Chennai
+1234,Continental,high,4.2,18,Chennai
+1235,Continental,medium,3.7,17,Chennai
+1236,Beverages,medium,4.4,27,Bangalore
+1237,Continental,medium,3.6,41,Pune
+1238,Italian,medium,3.4,37,Mumbai
+1239,South Indian,high,5.0,25,Hyderabad
+1240,Biryani,high,4.1,40,Kolkata
+1241,Fast Food,medium,3.7,32,Mumbai
+1242,Desserts,medium,3.8,26,Delhi
+1243,Chinese,medium,3.6,36,Delhi
+1244,North Indian,medium,4.2,27,Delhi
+1245,Fast Food,high,4.0,31,Pune
+1246,Italian,medium,4.2,42,Pune
+1247,Continental,high,3.9,29,Pune
+1248,Pizza,medium,3.6,30,Chennai
+1249,South Indian,high,4.1,36,Hyderabad
+1250,Biryani,low,3.4,36,Bangalore
+1251,Biryani,medium,3.9,28,Delhi
+1252,Fast Food,medium,3.8,21,Delhi
+1253,Italian,high,4.2,22,Bangalore
+1254,South Indian,medium,3.4,15,Bangalore
+1255,Continental,low,3.2,34,Delhi
+1256,Pizza,high,3.7,16,Chennai
+1257,South Indian,medium,3.5,19,Delhi
+1258,Fast Food,low,3.0,29,Kolkata
+1259,Italian,high,4.0,28,Kolkata
+1260,Fast Food,medium,4.3,25,Chennai
+1261,Biryani,low,4.0,24,Hyderabad
+1262,South Indian,high,3.7,27,Kolkata
+1263,Biryani,low,3.9,25,Mumbai
+1264,Pizza,medium,4.0,34,Hyderabad
+1265,South Indian,low,3.5,24,Mumbai
+1266,Continental,low,3.3,27,Chennai
+1267,South Indian,low,3.2,27,Pune
+1268,South Indian,high,3.9,39,Bangalore
+1269,Desserts,high,4.2,35,Kolkata
+1270,Desserts,medium,3.3,28,Pune
+1271,South Indian,medium,3.3,31,Pune
+1272,Desserts,low,3.3,15,Mumbai
+1273,South Indian,medium,3.7,32,Mumbai
+1274,Beverages,medium,3.8,35,Pune
+1275,Desserts,high,4.4,41,Bangalore
+1276,Continental,medium,3.6,22,Pune
+1277,South Indian,high,4.2,31,Mumbai
+1278,Pizza,low,3.0,15,Kolkata
+1279,Beverages,medium,3.9,42,Delhi
+1280,Chinese,medium,3.9,50,Hyderabad
+1281,Pizza,medium,3.8,37,Pune
+1282,Chinese,low,3.3,45,Pune
+1283,Biryani,medium,3.9,42,Hyderabad
+1284,Pizza,low,3.1,30,Bangalore
+1285,North Indian,medium,3.8,41,Chennai
+1286,Fast Food,medium,3.4,38,Delhi
+1287,Italian,medium,3.4,24,Hyderabad
+1288,Beverages,medium,3.9,37,Bangalore
+1289,Italian,medium,3.9,26,Mumbai
+1290,Pizza,medium,3.7,17,Chennai
+1291,Desserts,medium,4.0,33,Delhi
+1292,Fast Food,medium,3.6,30,Pune
+1293,Beverages,high,4.5,30,Kolkata
+1294,Fast Food,high,4.2,40,Hyderabad
+1295,Continental,low,3.2,38,Chennai
+1296,South Indian,low,3.6,20,Bangalore
+1297,Chinese,medium,3.7,15,Pune
+1298,Biryani,medium,4.3,17,Mumbai
+1299,Chinese,medium,3.8,31,Kolkata
+1300,North Indian,low,4.9,19,Pune
+1301,South Indian,medium,3.8,36,Chennai
+1302,Italian,high,4.0,28,Kolkata
+1303,Beverages,low,3.3,43,Hyderabad
+1304,Italian,low,4.0,39,Delhi
+1305,Chinese,low,3.5,24,Kolkata
+1306,Beverages,high,4.0,29,Bangalore
+1307,Chinese,medium,3.9,34,Kolkata
+1308,Fast Food,medium,4.2,19,Hyderabad
+1309,Fast Food,medium,3.3,24,Delhi
+1310,Biryani,medium,4.2,29,Bangalore
+1311,Continental,high,4.2,59,Mumbai
+1312,Fast Food,medium,4.0,22,Mumbai
+1313,Continental,medium,3.6,50,Kolkata
+1314,Fast Food,medium,4.1,44,Delhi
+1315,Biryani,high,3.8,20,Bangalore
+1316,Fast Food,high,4.6,34,Hyderabad
+1317,Italian,medium,4.3,37,Chennai
+1318,Biryani,low,3.7,23,Hyderabad
+1319,North Indian,low,3.6,51,Kolkata
+1320,Beverages,low,3.4,36,Pune
+1321,Continental,high,4.3,26,Chennai
+1322,Chinese,low,3.7,15,Chennai
+1323,Chinese,low,3.9,20,Bangalore
+1324,Pizza,high,4.6,28,Pune
+1325,South Indian,high,3.5,18,Kolkata
+1326,Pizza,low,3.5,42,Kolkata
+1327,South Indian,medium,3.8,26,Hyderabad
+1328,North Indian,medium,3.9,34,Pune
+1329,Fast Food,medium,3.5,39,Delhi
+1330,Chinese,low,4.0,25,Chennai
+1331,Pizza,low,3.3,32,Pune
+1332,Biryani,medium,3.8,31,Pune
+1333,North Indian,medium,3.3,46,Kolkata
+1334,Beverages,medium,3.6,35,Bangalore
+1335,Chinese,high,4.1,40,Delhi
+1336,Italian,high,4.1,18,Pune
+1337,Pizza,medium,4.0,18,Bangalore
+1338,Biryani,medium,3.3,22,Delhi
+1339,Chinese,high,4.8,36,Mumbai
+1340,Biryani,medium,3.8,22,Kolkata
+1341,Fast Food,low,4.0,32,Bangalore
+1342,Fast Food,medium,3.9,47,Kolkata
+1343,North Indian,high,3.8,15,Pune
+1344,Biryani,low,3.9,44,Kolkata
+1345,Biryani,medium,4.1,18,Hyderabad
+1346,Chinese,low,3.7,31,Hyderabad
+1347,Biryani,low,3.4,21,Pune
+1348,Italian,medium,4.0,30,Bangalore
+1349,Desserts,low,3.0,25,Chennai
+1350,Beverages,high,4.6,30,Mumbai
+1351,Pizza,medium,3.7,47,Bangalore
+1352,South Indian,medium,4.5,30,Delhi
+1353,Biryani,low,3.3,26,Chennai
+1354,South Indian,medium,3.5,33,Pune
+1355,Pizza,low,3.3,27,Pune
+1356,Continental,medium,4.1,15,Hyderabad
+1357,North Indian,medium,3.6,34,Bangalore
+1358,Pizza,medium,4.1,40,Bangalore
+1359,Desserts,low,3.9,25,Delhi
+1360,South Indian,low,4.3,39,Bangalore
+1361,Beverages,low,4.2,36,Kolkata
+1362,Biryani,high,3.6,28,Mumbai
+1363,South Indian,low,3.5,15,Mumbai
+1364,Beverages,medium,4.2,23,Delhi
+1365,North Indian,medium,3.9,38,Chennai
+1366,South Indian,high,4.0,51,Hyderabad
+1367,North Indian,low,3.5,31,Delhi
+1368,Biryani,medium,3.9,48,Bangalore
+1369,North Indian,high,4.4,49,Chennai
+1370,Continental,high,4.1,40,Hyderabad
+1371,Continental,low,3.4,27,Delhi
+1372,Continental,medium,3.8,39,Pune
+1373,Fast Food,medium,3.5,36,Kolkata
+1374,Beverages,low,4.1,29,Mumbai
+1375,Continental,high,4.5,20,Mumbai
+1376,Pizza,low,5.0,30,Bangalore
+1377,Fast Food,medium,3.6,18,Hyderabad
+1378,Italian,low,3.5,15,Chennai
+1379,Chinese,high,4.7,19,Chennai
+1380,Beverages,low,3.5,41,Chennai
+1381,Fast Food,high,4.4,15,Hyderabad
+1382,Continental,medium,3.3,42,Kolkata
+1383,Fast Food,low,3.8,32,Pune
+1384,Biryani,medium,3.3,27,Delhi
+1385,Biryani,medium,3.9,42,Delhi
+1386,North Indian,low,3.7,38,Delhi
+1387,Continental,low,3.0,22,Chennai
+1388,Beverages,medium,3.4,15,Chennai
+1389,Fast Food,medium,3.7,35,Pune
+1390,Fast Food,low,3.7,25,Pune
+1391,Italian,medium,3.4,44,Delhi
+1392,Chinese,low,3.0,29,Delhi
+1393,Pizza,high,4.3,35,Kolkata
+1394,South Indian,high,4.2,15,Mumbai
+1395,Fast Food,high,3.8,30,Delhi
+1396,South Indian,medium,4.0,39,Bangalore
+1397,Chinese,medium,3.5,28,Mumbai
+1398,Continental,medium,3.4,15,Hyderabad
+1399,Desserts,high,4.1,19,Chennai
+1400,Chinese,low,3.8,26,Hyderabad
+1401,Pizza,medium,4.1,15,Pune
+1402,Continental,medium,3.8,44,Hyderabad
+1403,North Indian,low,3.4,42,Kolkata
+1404,Chinese,medium,3.5,33,Delhi
+1405,Beverages,medium,4.1,35,Mumbai
+1406,Fast Food,medium,4.3,15,Hyderabad
+1407,North Indian,low,3.1,15,Delhi
+1408,North Indian,low,3.8,51,Chennai
+1409,Chinese,high,4.7,29,Pune
+1410,North Indian,high,3.9,36,Bangalore
+1411,Biryani,low,3.0,15,Chennai
+1412,Biryani,high,3.7,34,Bangalore
+1413,Fast Food,low,3.4,57,Mumbai
+1414,Beverages,medium,3.6,21,Kolkata
+1415,Continental,medium,4.1,21,Kolkata
+1416,Pizza,medium,3.8,33,Chennai
+1417,Beverages,medium,3.3,34,Delhi
+1418,Italian,medium,4.1,39,Mumbai
+1419,Beverages,medium,4.0,34,Delhi
+1420,Beverages,medium,3.7,27,Kolkata
+1421,Pizza,low,3.7,35,Delhi
+1422,Chinese,medium,3.6,30,Hyderabad
+1423,Italian,low,3.7,15,Mumbai
+1424,Continental,medium,4.0,31,Delhi
+1425,Desserts,medium,4.4,31,Kolkata
+1426,South Indian,low,3.9,26,Pune
+1427,Fast Food,medium,3.2,36,Pune
+1428,Desserts,medium,4.1,50,Bangalore
+1429,Continental,low,3.0,26,Pune
+1430,Continental,high,3.9,34,Chennai
+1431,Biryani,medium,4.0,36,Mumbai
+1432,Italian,high,4.2,28,Mumbai
+1433,Chinese,high,4.2,21,Chennai
+1434,Chinese,medium,3.7,33,Mumbai
+1435,Pizza,low,3.0,15,Delhi
+1436,South Indian,low,3.1,31,Hyderabad
+1437,Pizza,high,3.9,41,Chennai
+1438,Italian,medium,4.0,18,Mumbai
+1439,North Indian,high,4.3,15,Bangalore
+1440,North Indian,low,4.0,40,Pune
+1441,Pizza,low,3.8,27,Delhi
+1442,Biryani,low,3.7,27,Pune
+1443,Pizza,medium,3.6,15,Bangalore
+1444,Pizza,low,3.4,40,Pune
+1445,Chinese,medium,3.2,38,Pune
+1446,Italian,medium,3.6,20,Delhi
+1447,Pizza,medium,3.6,42,Mumbai
+1448,Biryani,medium,4.7,35,Pune
+1449,North Indian,medium,3.6,40,Bangalore
+1450,Fast Food,high,4.4,31,Pune
+1451,Pizza,high,4.1,15,Delhi
+1452,Continental,low,3.4,52,Hyderabad
+1453,Chinese,medium,4.2,34,Chennai
+1454,Italian,medium,3.4,52,Delhi
+1455,South Indian,medium,3.3,29,Mumbai
+1456,Beverages,low,3.1,34,Chennai
+1457,Desserts,high,4.0,46,Chennai
+1458,Biryani,low,3.7,23,Mumbai
+1459,Chinese,low,3.6,39,Bangalore
+1460,Fast Food,low,4.5,15,Kolkata
+1461,North Indian,low,3.9,27,Hyderabad
+1462,Fast Food,low,3.8,24,Pune
+1463,Desserts,medium,4.3,29,Bangalore
+1464,Pizza,low,3.0,31,Kolkata
+1465,South Indian,medium,3.7,28,Mumbai
+1466,Biryani,low,3.0,24,Delhi
+1467,Fast Food,medium,3.5,17,Bangalore
+1468,Beverages,medium,3.5,43,Delhi
+1469,Chinese,medium,4.1,16,Hyderabad
+1470,Italian,medium,4.0,15,Mumbai
+1471,Fast Food,low,3.8,43,Delhi
+1472,South Indian,low,4.5,23,Delhi
+1473,Beverages,high,3.8,30,Kolkata
+1474,Desserts,low,3.6,20,Kolkata
+1475,Pizza,medium,3.7,44,Chennai
+1476,Pizza,high,4.0,17,Chennai
+1477,Biryani,medium,3.9,43,Mumbai
+1478,Pizza,medium,3.8,34,Bangalore
+1479,Chinese,medium,4.2,52,Kolkata
+1480,Chinese,medium,3.7,32,Pune
+1481,North Indian,high,4.3,29,Kolkata
+1482,Continental,medium,4.0,26,Chennai
+1483,Italian,medium,3.9,34,Hyderabad
+1484,Italian,medium,3.9,37,Mumbai
+1485,Continental,medium,3.8,45,Kolkata
+1486,North Indian,medium,3.8,29,Chennai
+1487,Pizza,medium,4.1,37,Hyderabad
+1488,Chinese,low,3.3,32,Chennai
+1489,North Indian,medium,4.0,30,Mumbai
+1490,Pizza,high,3.8,27,Bangalore
+1491,South Indian,medium,3.6,46,Chennai
+1492,Continental,medium,3.1,33,Kolkata
+1493,Continental,medium,3.6,32,Pune
+1494,Beverages,high,4.1,37,Hyderabad
+1495,South Indian,medium,3.4,26,Delhi
+1496,Beverages,medium,4.0,22,Pune
+1497,South Indian,high,3.8,18,Delhi
+1498,Fast Food,medium,3.7,20,Bangalore
+1499,Continental,medium,4.6,25,Hyderabad
+1500,Desserts,medium,4.6,38,Pune
+1501,Biryani,medium,3.9,50,Delhi
+1502,South Indian,medium,3.7,17,Hyderabad
+1503,Biryani,medium,3.8,15,Chennai
+1504,Chinese,low,4.2,25,Bangalore
+1505,Chinese,medium,3.9,19,Delhi
+1506,Beverages,medium,3.6,25,Bangalore
+1507,South Indian,medium,3.9,45,Hyderabad
+1508,Beverages,high,4.0,43,Mumbai
+1509,Chinese,high,4.5,59,Delhi
+1510,Chinese,low,3.5,26,Mumbai
+1511,Pizza,medium,3.5,45,Chennai
+1512,Fast Food,high,4.5,27,Mumbai
+1513,Fast Food,medium,3.6,35,Kolkata
+1514,Desserts,low,3.4,23,Kolkata
+1515,Fast Food,low,3.7,35,Pune
+1516,Italian,medium,4.1,15,Mumbai
+1517,Desserts,medium,3.8,29,Chennai
+1518,Chinese,high,4.4,18,Mumbai
+1519,Beverages,low,3.7,36,Kolkata
+1520,Biryani,medium,4.3,35,Delhi
+1521,Desserts,medium,3.5,36,Chennai
+1522,Italian,medium,3.2,37,Mumbai
+1523,Continental,medium,3.5,33,Hyderabad
+1524,North Indian,medium,3.5,23,Delhi
+1525,Desserts,medium,3.9,26,Kolkata
+1526,North Indian,medium,3.6,20,Bangalore
+1527,North Indian,medium,3.8,29,Kolkata
+1528,Beverages,low,4.4,36,Mumbai
+1529,Beverages,high,4.7,22,Chennai
+1530,North Indian,low,3.6,31,Pune
+1531,Italian,medium,3.8,24,Chennai
+1532,Fast Food,medium,4.2,26,Delhi
+1533,Continental,high,3.3,22,Chennai
+1534,Beverages,low,3.0,33,Pune
+1535,Italian,medium,3.9,32,Kolkata
+1536,Chinese,low,3.7,37,Mumbai
+1537,Pizza,medium,3.4,53,Hyderabad
+1538,Italian,medium,4.5,20,Chennai
+1539,Continental,high,4.4,44,Mumbai
+1540,Biryani,low,3.6,25,Pune
+1541,South Indian,medium,3.5,17,Pune
+1542,Continental,medium,3.7,15,Mumbai
+1543,Continental,medium,4.0,27,Mumbai
+1544,Italian,low,3.6,46,Kolkata
+1545,Continental,medium,4.1,25,Bangalore
+1546,South Indian,medium,3.8,24,Delhi
+1547,Desserts,low,3.9,26,Pune
+1548,Italian,medium,4.5,28,Chennai
+1549,North Indian,medium,3.5,19,Delhi
+1550,Continental,low,3.0,28,Pune
+1551,North Indian,medium,3.0,16,Chennai
+1552,North Indian,medium,4.1,40,Pune
+1553,North Indian,medium,3.5,15,Kolkata
+1554,South Indian,low,4.0,15,Pune
+1555,South Indian,high,4.2,34,Kolkata
+1556,Desserts,low,3.3,32,Kolkata
+1557,North Indian,medium,3.6,36,Hyderabad
+1558,Italian,medium,3.9,24,Hyderabad
+1559,Chinese,low,3.0,15,Delhi
+1560,Desserts,low,3.7,36,Delhi
+1561,Italian,low,3.2,35,Mumbai
+1562,Pizza,medium,4.2,42,Chennai
+1563,Beverages,low,3.2,19,Delhi
+1564,Fast Food,high,3.6,39,Chennai
+1565,Chinese,high,4.3,19,Pune
+1566,Italian,medium,4.1,24,Kolkata
+1567,Biryani,medium,4.1,27,Delhi
+1568,Biryani,low,3.7,42,Bangalore
+1569,Biryani,medium,4.0,27,Bangalore
+1570,Chinese,medium,3.7,23,Hyderabad
+1571,Biryani,low,3.0,20,Kolkata
+1572,Italian,medium,3.6,15,Delhi
+1573,North Indian,medium,4.6,26,Chennai
+1574,Biryani,high,4.7,24,Hyderabad
+1575,Biryani,medium,3.9,36,Kolkata
+1576,Pizza,medium,4.3,23,Kolkata
+1577,North Indian,low,3.0,40,Mumbai
+1578,Desserts,medium,3.9,29,Pune
+1579,North Indian,high,4.5,40,Hyderabad
+1580,South Indian,low,3.7,19,Mumbai
+1581,Pizza,medium,3.6,15,Kolkata
+1582,North Indian,high,4.0,42,Mumbai
+1583,Fast Food,high,4.0,34,Chennai
+1584,Fast Food,medium,4.1,26,Hyderabad
+1585,Fast Food,low,3.2,39,Mumbai
+1586,Pizza,low,4.1,31,Chennai
+1587,Continental,low,3.2,17,Pune
+1588,Desserts,low,4.8,47,Delhi
+1589,South Indian,high,4.5,24,Kolkata
+1590,Italian,high,3.7,39,Chennai
+1591,South Indian,low,3.2,23,Bangalore
+1592,Italian,low,4.4,44,Pune
+1593,Biryani,high,4.0,33,Chennai
+1594,Biryani,low,3.4,23,Pune
+1595,Italian,medium,4.1,31,Delhi
+1596,Desserts,low,3.6,29,Kolkata
+1597,Fast Food,low,3.2,15,Bangalore
+1598,Pizza,medium,4.5,15,Delhi
+1599,Italian,medium,3.1,29,Mumbai
+1600,Desserts,high,3.6,25,Hyderabad
+1601,Chinese,low,3.0,37,Chennai
+1602,Italian,high,4.7,59,Mumbai
+1603,Chinese,high,3.7,37,Hyderabad
+1604,Fast Food,medium,4.4,33,Chennai
+1605,Desserts,low,3.7,40,Kolkata
+1606,Pizza,medium,3.8,19,Hyderabad
+1607,Desserts,medium,3.7,41,Bangalore
+1608,Desserts,high,4.6,23,Mumbai
+1609,Italian,medium,4.3,56,Chennai
+1610,Desserts,medium,3.8,16,Chennai
+1611,Continental,medium,3.6,30,Hyderabad
+1612,Pizza,medium,4.4,15,Chennai
+1613,Biryani,medium,4.0,34,Chennai
+1614,Biryani,medium,3.0,23,Kolkata
+1615,South Indian,low,3.0,20,Delhi
+1616,Italian,medium,4.3,16,Delhi
+1617,Beverages,high,3.6,31,Delhi
+1618,North Indian,low,3.5,28,Chennai
+1619,South Indian,medium,4.0,42,Pune
+1620,Italian,medium,3.6,29,Pune
+1621,South Indian,high,4.5,22,Pune
+1622,Fast Food,high,4.6,45,Chennai
+1623,Beverages,medium,4.1,20,Delhi
+1624,South Indian,medium,4.0,27,Chennai
+1625,Chinese,medium,4.3,18,Delhi
+1626,Desserts,medium,4.0,39,Chennai
+1627,Italian,high,4.2,29,Mumbai
+1628,South Indian,high,4.1,32,Bangalore
+1629,Fast Food,medium,3.8,30,Hyderabad
+1630,Biryani,low,3.0,37,Pune
+1631,Beverages,low,3.4,26,Kolkata
+1632,Chinese,low,3.1,16,Bangalore
+1633,Biryani,low,4.2,15,Chennai
+1634,Continental,low,4.6,21,Kolkata
+1635,Chinese,medium,4.1,33,Kolkata
+1636,Beverages,low,3.6,32,Chennai
+1637,Biryani,high,4.1,38,Pune
+1638,Desserts,low,4.1,38,Bangalore
+1639,Italian,low,3.5,33,Chennai
+1640,Beverages,low,3.5,50,Pune
+1641,Pizza,medium,3.7,32,Bangalore
+1642,Continental,low,3.4,22,Chennai
+1643,Chinese,medium,3.9,29,Hyderabad
+1644,Continental,high,4.3,61,Delhi
+1645,Fast Food,medium,3.3,40,Delhi
+1646,Italian,low,3.8,19,Pune
+1647,Continental,medium,3.0,16,Pune
+1648,Pizza,high,4.2,34,Chennai
+1649,Biryani,medium,4.6,33,Bangalore
+1650,Continental,medium,4.3,21,Delhi
+1651,Continental,low,3.6,33,Mumbai
+1652,South Indian,medium,3.8,28,Delhi
+1653,Biryani,low,3.6,31,Kolkata
+1654,Chinese,high,4.3,36,Delhi
+1655,Biryani,low,3.2,34,Hyderabad
+1656,South Indian,low,4.3,27,Chennai
+1657,Chinese,medium,3.8,23,Mumbai
+1658,Chinese,medium,3.3,42,Bangalore
+1659,Continental,medium,3.0,35,Pune
+1660,Desserts,medium,4.3,58,Delhi
+1661,Fast Food,medium,3.4,42,Hyderabad
+1662,Chinese,medium,3.3,34,Pune
+1663,Italian,medium,3.8,15,Mumbai
+1664,Beverages,high,3.9,23,Chennai
+1665,Italian,medium,3.8,35,Mumbai
+1666,South Indian,medium,4.4,37,Delhi
+1667,Beverages,low,3.0,32,Mumbai
+1668,Continental,low,3.2,24,Bangalore
+1669,Chinese,high,4.1,37,Bangalore
+1670,Fast Food,low,3.0,25,Kolkata
+1671,Pizza,medium,3.8,28,Chennai
+1672,Biryani,medium,3.7,44,Pune
+1673,Italian,high,3.8,32,Kolkata
+1674,Fast Food,medium,4.1,24,Mumbai
+1675,Chinese,low,3.2,17,Chennai
+1676,Continental,low,3.0,23,Bangalore
+1677,North Indian,medium,4.0,24,Hyderabad
+1678,South Indian,medium,4.0,24,Pune
+1679,Italian,medium,3.6,23,Kolkata
+1680,Chinese,low,3.0,33,Hyderabad
+1681,Continental,low,3.9,33,Kolkata
+1682,Biryani,high,4.2,23,Delhi
+1683,South Indian,medium,3.7,16,Hyderabad
+1684,North Indian,low,3.5,38,Chennai
+1685,North Indian,low,3.8,31,Pune
+1686,Desserts,high,4.1,38,Kolkata
+1687,Desserts,medium,4.4,23,Pune
+1688,North Indian,low,3.3,46,Bangalore
+1689,Desserts,high,4.0,29,Chennai
+1690,Italian,high,4.1,24,Delhi
+1691,Continental,medium,3.8,28,Pune
+1692,Italian,low,3.6,58,Hyderabad
+1693,Beverages,medium,3.8,18,Pune
+1694,Continental,medium,4.1,26,Mumbai
+1695,Continental,high,4.3,25,Bangalore
+1696,Continental,low,3.5,36,Bangalore
+1697,North Indian,medium,3.5,34,Kolkata
+1698,Continental,medium,3.8,15,Kolkata
+1699,Chinese,medium,3.5,32,Chennai
+1700,South Indian,high,4.0,26,Delhi
+1701,North Indian,low,3.0,29,Chennai
+1702,Continental,low,4.1,35,Mumbai
+1703,Pizza,low,4.7,27,Delhi
+1704,South Indian,low,3.2,33,Chennai
+1705,South Indian,medium,4.3,40,Delhi
+1706,Fast Food,medium,3.3,33,Delhi
+1707,Desserts,medium,3.4,19,Chennai
+1708,Chinese,medium,3.5,30,Pune
+1709,Desserts,medium,4.1,15,Kolkata
+1710,Chinese,high,4.2,37,Kolkata
+1711,North Indian,low,3.1,30,Pune
+1712,South Indian,high,4.0,22,Kolkata
+1713,Fast Food,high,4.5,38,Mumbai
+1714,Italian,medium,3.5,20,Delhi
+1715,Beverages,low,3.4,21,Pune
+1716,Biryani,medium,3.2,47,Mumbai
+1717,Beverages,low,3.9,40,Chennai
+1718,Biryani,low,3.6,31,Bangalore
+1719,Pizza,medium,3.3,33,Pune
+1720,South Indian,medium,4.2,21,Chennai
+1721,Pizza,low,3.8,23,Pune
+1722,Pizza,medium,3.5,42,Chennai
+1723,Italian,medium,4.0,35,Bangalore
+1724,Fast Food,low,4.1,38,Bangalore
+1725,Biryani,low,3.0,16,Mumbai
+1726,North Indian,high,4.1,23,Kolkata
+1727,Biryani,medium,3.8,19,Delhi
+1728,Italian,low,3.3,27,Chennai
+1729,South Indian,high,4.2,34,Hyderabad
+1730,Italian,medium,3.3,22,Pune
+1731,Beverages,low,3.9,40,Bangalore
+1732,Continental,medium,3.6,33,Kolkata
+1733,South Indian,low,3.3,22,Hyderabad
+1734,Biryani,medium,3.8,40,Delhi
+1735,South Indian,low,3.2,35,Chennai
+1736,Fast Food,medium,3.8,35,Mumbai
+1737,South Indian,high,4.2,32,Delhi
+1738,Continental,low,3.9,36,Kolkata
+1739,North Indian,medium,4.3,33,Hyderabad
+1740,Pizza,high,4.2,27,Kolkata
+1741,North Indian,medium,3.6,25,Kolkata
+1742,Beverages,medium,4.0,23,Delhi
+1743,Biryani,medium,3.3,38,Mumbai
+1744,Fast Food,medium,3.7,34,Bangalore
+1745,Beverages,low,3.0,15,Mumbai
+1746,Beverages,high,4.8,43,Pune
+1747,Italian,low,4.3,31,Kolkata
+1748,Fast Food,medium,3.3,18,Pune
+1749,Beverages,high,4.4,25,Delhi
+1750,Biryani,medium,3.5,24,Chennai
+1751,South Indian,medium,4.6,33,Delhi
+1752,Desserts,low,3.5,32,Pune
+1753,Desserts,medium,4.3,25,Bangalore
+1754,Italian,medium,3.7,22,Delhi
+1755,Beverages,medium,4.4,43,Pune
+1756,South Indian,low,3.8,38,Chennai
+1757,Italian,low,3.7,23,Mumbai
+1758,Biryani,low,4.3,34,Chennai
+1759,Desserts,low,3.3,18,Bangalore
+1760,Continental,high,4.0,24,Chennai
+1761,Continental,low,3.0,25,Chennai
+1762,Desserts,medium,3.2,34,Mumbai
+1763,Desserts,medium,3.4,20,Delhi
+1764,Continental,medium,3.7,34,Kolkata
+1765,Biryani,high,4.4,17,Delhi
+1766,Italian,low,3.5,34,Mumbai
+1767,Chinese,low,3.2,43,Delhi
+1768,Chinese,medium,4.3,40,Chennai
+1769,Chinese,medium,4.6,41,Delhi
+1770,South Indian,medium,3.7,44,Bangalore
+1771,Chinese,low,3.7,25,Pune
+1772,Italian,medium,4.1,50,Mumbai
+1773,Chinese,medium,3.6,18,Hyderabad
+1774,Chinese,medium,3.7,18,Kolkata
+1775,Beverages,medium,4.7,32,Kolkata
+1776,Chinese,low,3.8,40,Pune
+1777,North Indian,medium,3.6,26,Hyderabad
+1778,Pizza,medium,3.9,24,Pune
+1779,Continental,high,4.2,17,Kolkata
+1780,Chinese,high,3.8,21,Chennai
+1781,Pizza,high,3.7,39,Hyderabad
+1782,Continental,medium,3.2,36,Kolkata
+1783,Biryani,medium,3.8,32,Chennai
+1784,Chinese,medium,4.5,21,Pune
+1785,Chinese,medium,4.1,32,Hyderabad
+1786,Pizza,medium,4.3,23,Delhi
+1787,Fast Food,low,3.2,27,Bangalore
+1788,Chinese,medium,3.8,25,Mumbai
+1789,Fast Food,medium,4.0,41,Bangalore
+1790,Italian,medium,3.3,36,Hyderabad
+1791,Italian,medium,4.5,30,Hyderabad
+1792,Pizza,medium,3.9,25,Pune
+1793,Fast Food,low,3.0,34,Bangalore
+1794,North Indian,medium,3.9,39,Bangalore
+1795,Biryani,low,3.6,41,Mumbai
+1796,North Indian,medium,3.8,34,Pune
+1797,Biryani,medium,4.1,40,Kolkata
+1798,North Indian,medium,3.9,45,Bangalore
+1799,Beverages,medium,4.1,19,Bangalore
+1800,Beverages,medium,4.4,31,Bangalore
+1801,Biryani,medium,4.3,34,Kolkata
+1802,South Indian,medium,4.4,37,Bangalore
+1803,Beverages,medium,4.3,15,Hyderabad
+1804,South Indian,low,3.2,48,Kolkata
+1805,Continental,low,4.3,38,Mumbai
+1806,Pizza,low,3.9,18,Bangalore
+1807,Pizza,medium,3.8,28,Hyderabad
+1808,Continental,medium,4.4,26,Mumbai
+1809,Biryani,high,4.4,34,Delhi
+1810,Pizza,high,4.1,27,Hyderabad
+1811,Biryani,low,3.5,28,Chennai
+1812,North Indian,low,3.2,15,Pune
+1813,Beverages,medium,3.0,18,Pune
+1814,Desserts,high,4.0,15,Delhi
+1815,Biryani,medium,3.0,32,Pune
+1816,North Indian,medium,4.4,17,Pune
+1817,Chinese,high,4.2,28,Kolkata
+1818,South Indian,medium,3.4,31,Bangalore
+1819,Desserts,medium,4.0,17,Bangalore
+1820,Beverages,medium,3.4,51,Pune
+1821,Desserts,medium,4.4,46,Chennai
+1822,Continental,medium,3.3,18,Pune
+1823,Fast Food,low,3.1,15,Chennai
+1824,Continental,high,3.6,28,Delhi
+1825,South Indian,high,4.5,57,Mumbai
+1826,Pizza,medium,3.4,30,Mumbai
+1827,North Indian,low,3.0,17,Delhi
+1828,Continental,low,3.7,41,Bangalore
+1829,Biryani,low,4.0,34,Delhi
+1830,Biryani,medium,3.7,21,Bangalore
+1831,North Indian,medium,4.5,28,Delhi
+1832,North Indian,medium,3.5,15,Mumbai
+1833,Continental,medium,4.0,33,Pune
+1834,Desserts,high,3.9,19,Pune
+1835,Beverages,medium,4.0,35,Delhi
+1836,Italian,low,4.1,34,Delhi
+1837,Pizza,medium,4.3,55,Pune
+1838,North Indian,low,3.0,30,Mumbai
+1839,Italian,medium,3.6,36,Bangalore
+1840,Chinese,medium,3.7,38,Hyderabad
+1841,Continental,high,4.7,36,Bangalore
+1842,Biryani,high,3.6,38,Chennai
+1843,Desserts,low,3.8,15,Mumbai
+1844,Continental,low,3.1,31,Chennai
+1845,Fast Food,low,3.0,27,Hyderabad
+1846,Italian,low,3.7,25,Chennai
+1847,Biryani,medium,3.6,41,Kolkata
+1848,North Indian,medium,4.0,35,Delhi
+1849,Desserts,low,4.2,29,Kolkata
+1850,North Indian,low,3.0,15,Mumbai
+1851,North Indian,high,4.4,40,Mumbai
+1852,Fast Food,medium,3.6,26,Delhi
+1853,Beverages,low,4.6,27,Delhi
+1854,South Indian,high,4.4,48,Bangalore
+1855,South Indian,medium,3.7,30,Delhi
+1856,North Indian,low,3.4,46,Pune
+1857,Chinese,low,3.4,35,Chennai
+1858,South Indian,medium,3.8,31,Chennai
+1859,North Indian,low,3.0,28,Chennai
+1860,North Indian,low,3.8,27,Kolkata
+1861,Chinese,high,4.4,32,Chennai
+1862,Beverages,medium,3.7,22,Mumbai
+1863,Biryani,medium,4.0,31,Hyderabad
+1864,Beverages,medium,4.0,25,Chennai
+1865,South Indian,high,3.8,19,Hyderabad
+1866,South Indian,low,4.4,22,Delhi
+1867,Continental,low,3.2,16,Chennai
+1868,Fast Food,high,4.6,28,Kolkata
+1869,Biryani,high,4.6,42,Delhi
+1870,Pizza,high,4.0,46,Hyderabad
+1871,South Indian,low,3.0,26,Bangalore
+1872,Beverages,low,4.1,21,Delhi
+1873,North Indian,medium,3.7,36,Bangalore
+1874,Continental,low,3.0,24,Hyderabad
+1875,Continental,medium,3.7,15,Mumbai
+1876,Biryani,low,3.9,37,Bangalore
+1877,Italian,medium,4.2,32,Mumbai
+1878,North Indian,high,4.2,30,Bangalore
+1879,Fast Food,high,4.2,33,Bangalore
+1880,Italian,medium,3.9,56,Chennai
+1881,Fast Food,low,3.0,15,Hyderabad
+1882,North Indian,high,4.4,21,Mumbai
+1883,North Indian,low,4.0,41,Chennai
+1884,Beverages,medium,3.8,33,Mumbai
+1885,Chinese,medium,3.8,40,Hyderabad
+1886,Beverages,medium,3.8,24,Pune
+1887,Beverages,medium,4.3,21,Delhi
+1888,Biryani,low,4.1,19,Delhi
+1889,North Indian,high,4.4,30,Mumbai
+1890,Fast Food,high,4.3,44,Delhi
+1891,Continental,medium,4.3,27,Delhi
+1892,Fast Food,low,3.6,44,Delhi
+1893,Beverages,high,4.3,22,Hyderabad
+1894,Continental,medium,3.8,26,Chennai
+1895,South Indian,low,3.9,16,Pune
+1896,Pizza,medium,3.6,20,Mumbai
+1897,Chinese,medium,3.5,24,Hyderabad
+1898,Biryani,medium,4.4,39,Chennai
+1899,Desserts,medium,3.7,31,Mumbai
+1900,South Indian,medium,4.2,20,Hyderabad
+1901,South Indian,high,3.9,42,Bangalore
+1902,Pizza,medium,4.0,29,Bangalore
+1903,Continental,medium,3.6,15,Delhi
+1904,North Indian,medium,3.1,23,Bangalore
+1905,Beverages,medium,3.3,30,Kolkata
+1906,Beverages,medium,3.5,45,Pune
+1907,Fast Food,low,4.1,31,Mumbai
+1908,Continental,low,3.8,33,Bangalore
+1909,South Indian,low,3.4,24,Hyderabad
+1910,Continental,medium,3.0,54,Kolkata
+1911,Fast Food,low,3.6,45,Pune
+1912,South Indian,high,3.7,18,Hyderabad
+1913,Fast Food,medium,3.5,37,Mumbai
+1914,Chinese,low,3.4,24,Kolkata
+1915,North Indian,medium,4.0,42,Delhi
+1916,Biryani,high,4.4,30,Kolkata
+1917,South Indian,low,4.1,25,Mumbai
+1918,Desserts,medium,3.9,32,Mumbai
+1919,North Indian,low,3.0,23,Kolkata
+1920,Continental,low,3.0,28,Mumbai
+1921,Continental,low,3.5,15,Chennai
+1922,Biryani,medium,3.5,28,Pune
+1923,Pizza,medium,3.9,15,Pune
+1924,Continental,high,3.6,26,Bangalore
+1925,Pizza,high,4.5,28,Chennai
+1926,Pizza,medium,3.8,18,Mumbai
+1927,Pizza,high,4.2,32,Delhi
+1928,Fast Food,medium,3.7,32,Hyderabad
+1929,South Indian,high,4.2,30,Delhi
+1930,Continental,high,4.0,46,Hyderabad
+1931,Pizza,low,3.3,43,Bangalore
+1932,Beverages,medium,3.5,27,Pune
+1933,Continental,medium,3.8,23,Chennai
+1934,South Indian,high,3.8,35,Chennai
+1935,Continental,low,3.0,18,Mumbai
+1936,Fast Food,medium,3.3,42,Chennai
+1937,Chinese,medium,4.4,27,Delhi
+1938,Chinese,medium,4.3,43,Kolkata
+1939,Beverages,medium,4.3,40,Delhi
+1940,Pizza,high,4.2,37,Bangalore
+1941,Desserts,low,3.0,28,Kolkata
+1942,Pizza,medium,3.2,26,Kolkata
+1943,Desserts,medium,3.7,29,Mumbai
+1944,Pizza,medium,4.0,38,Mumbai
+1945,Beverages,high,4.1,15,Delhi
+1946,South Indian,high,4.3,15,Pune
+1947,Beverages,medium,3.3,37,Mumbai
+1948,North Indian,high,4.2,30,Bangalore
+1949,Continental,medium,3.7,20,Mumbai
+1950,Italian,medium,4.3,27,Chennai
+1951,Beverages,medium,3.7,42,Delhi
+1952,South Indian,medium,3.9,34,Pune
+1953,Biryani,low,3.1,33,Pune
+1954,Beverages,low,3.7,35,Delhi
+1955,North Indian,medium,3.9,41,Kolkata
+1956,North Indian,low,3.2,21,Kolkata
+1957,North Indian,high,4.6,30,Mumbai
+1958,Continental,high,4.4,15,Bangalore
+1959,Fast Food,medium,3.9,27,Delhi
+1960,Chinese,medium,3.7,40,Mumbai
+1961,Continental,high,4.2,17,Delhi
+1962,Italian,medium,4.3,29,Kolkata
+1963,South Indian,low,3.8,15,Delhi
+1964,Fast Food,high,4.5,19,Delhi
+1965,Desserts,high,4.7,24,Bangalore
+1966,Italian,low,3.6,40,Chennai
+1967,Continental,low,3.3,37,Delhi
+1968,Desserts,medium,4.2,26,Chennai
+1969,South Indian,medium,3.8,22,Pune
+1970,Fast Food,medium,3.5,46,Bangalore
+1971,Desserts,low,4.0,43,Hyderabad
+1972,Pizza,high,4.2,34,Hyderabad
+1973,Chinese,medium,3.5,15,Pune
+1974,North Indian,medium,4.3,28,Mumbai
+1975,Italian,high,4.5,59,Kolkata
+1976,Pizza,high,4.0,27,Delhi
+1977,Biryani,medium,4.4,44,Hyderabad
+1978,South Indian,high,4.4,28,Chennai
+1979,South Indian,low,4.1,42,Chennai
+1980,Italian,low,4.1,15,Mumbai
+1981,Pizza,medium,3.3,23,Chennai
+1982,Beverages,high,4.3,26,Chennai
+1983,Pizza,low,3.5,29,Pune
+1984,Pizza,medium,3.2,24,Bangalore
+1985,Biryani,medium,3.5,28,Chennai
+1986,Italian,medium,4.5,26,Pune
+1987,Beverages,medium,3.5,25,Mumbai
+1988,Biryani,high,4.1,38,Kolkata
+1989,Chinese,high,4.2,32,Hyderabad
+1990,Italian,medium,3.5,43,Bangalore
+1991,Pizza,high,3.7,38,Bangalore
+1992,Pizza,medium,3.4,41,Mumbai
+1993,Continental,high,4.2,20,Kolkata
+1994,Biryani,medium,4.3,41,Pune
+1995,South Indian,high,4.6,15,Delhi
+1996,Chinese,high,3.9,29,Hyderabad
+1997,South Indian,low,3.4,28,Bangalore
+1998,Pizza,medium,3.9,32,Delhi
+1999,Fast Food,low,4.4,34,Delhi
+2000,Chinese,low,3.5,43,Kolkata

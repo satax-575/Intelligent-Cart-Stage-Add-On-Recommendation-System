@@ -1,8 +1,6 @@
 # CARTBOOST AI - COMPLETE TECHNICAL REPORT
 ## Intelligent Cart Stage Add-On Recommendation System
 
-**Team:** ERROR_404  
-**Date:** March 3, 2026  
 **Version:** 3.0 (V2 + V3 Embeddings)
 
 ---
@@ -10,17 +8,17 @@
 ## EXECUTIVE SUMMARY
 
 ### Problem
-When customers checkout on food delivery platforms, they miss opportunities to add complementary items (drinks, desserts, sides), resulting in lower order values and missed revenue. The challenge is recommending the RIGHT items at the RIGHT time without disrupting checkout or damaging user trust.
+When customers checkout on food delivery platforms, they miss opportunities to add complementary items (drinks, desserts, sides), resulting in lower order values and missed revenue. The challenge is recommending the right items at the right time.
 
 ### Solution
-CartBoost AI intelligently suggests add-on items by understanding what items go together, user preferences, cart context, and timing - all in real-time (< 250ms).
+CartBoost AI intelligently suggests add-on items by understanding what items go together, user preferences, cart context, and timing all in real-time (less than 250ms).
 
 ### Results
-- **AUC:** 0.75-0.78 (target: > 0.70) ✅
-- **Attach Rate:** 13-17% vs 4% baseline (+225-325%)
-- **AOV Lift:** 13-22% (₹40-65 per order)
-- **Annual Revenue:** ₹9.18M (+1,317% over baseline)
-- **Performance:** ~250ms latency, 1.4K req/s throughput
+- **AUC:** 0.75-0.78 (target: greater than 0.70)
+- **Attach Rate:** 13-17% vs 4% baseline (plus 225-325%)
+- **AOV Lift:** 13-22% (Rupees 40-65 per order)
+- **Annual Revenue:** Rupees 9.18 Million (plus 1317% over baseline)
+- **Performance:** approximately 250ms latency, 1.4K requests per second throughput
 
 ---
 
@@ -28,34 +26,30 @@ CartBoost AI intelligently suggests add-on items by understanding what items go 
 
 ### System Overview
 
-```
 Training Pipeline (Offline, Weekly):
-Data Loading → Temporal Split → Embedding Training → 
-Negative Sampling → Feature Engineering → Model Training → Evaluation
+Data Loading arrow Temporal Split arrow Embedding Training arrow Negative Sampling arrow Feature Engineering arrow Model Training arrow Evaluation
 
 Inference Pipeline (Online, Real-time):
-API Request → Candidate Generation → Feature Engineering → 
-Model Prediction → Post-Processing → Top-10 Results
-```
+API Request arrow Candidate Generation arrow Feature Engineering arrow Model Prediction arrow Post-Processing arrow Top-10 Results
 
 ### Core Components
 
-**1. Data Layer** (`data_loader.py`)
-- Users: 50,000 | Restaurants: 2,000 | Items: 18,000
-- Interactions: 784,446 historical orders
+**1. Data Layer** (data loader.py)
+- Users: 50000 | Restaurants: 2000 | Items: 18000
+- Interactions: 784446 historical orders
 - Temporal split: Train (164K) | Val (31K) | Test (589K)
 
-**2. Embedding Layer** (`embeddings_v3.py`) ⭐ V3 Innovation
-- Word2Vec on order sequences (64-dim)
+**2. Embedding Layer** (embeddings v3.py) STAR V3 Innovation
+- Word2Vec on order sequences (64-dimensional)
 - Learns item similarity from co-occurrence
-- Impact: +5-8% AUC improvement
+- Impact: plus 5-8% AUC improvement
 
-**3. Negative Sampling** (`fast_negative_sampler.py`) ⭐ Optimized
-- 40:1 negative ratio (6.5M negatives from 164K positives)
+**3. Negative Sampling** (fast negative sampler.py) STAR Optimized
+- 40 to 1 negative ratio (6.5 Million negatives from 164K positives)
 - Vectorized numpy operations
-- Performance: 100x speedup (2-3 hours → 15 seconds)
+- Performance: 100x speedup (2-3 hours arrow 15 seconds)
 
-**4. Feature Engineering** (`feature_engineering_v2.py`)
+**4. Feature Engineering** (feature engineering v2.py)
 - 53 features across 7 categories:
   - User (12): Demographics, behavior, preferences
   - Item (15): Properties, popularity, statistics
@@ -63,16 +57,16 @@ Model Prediction → Post-Processing → Top-10 Results
   - Interaction (5): User-item affinity
   - Context (6): Time, day, meal slot
   - Sequential (4): Price progression, transitions
-  - Embedding (3): User-item similarity ⭐ V3
+  - Embedding (3): User-item similarity STAR V3
 
-**5. Model Training** (`train_ranker.py`)
+**5. Model Training** (train ranker.py)
 - Algorithm: LightGBM with LambdaRank
-- Training: 1.48M samples, 53 features, 500 trees
-- Time: ~8 minutes (GPU)
+- Training: 1.48 Million samples, 53 features, 500 trees
+- Time: approximately 8 minutes (GPU)
 
-**6. Evaluation** (`evaluation_v2.py`) ⭐ Optimized
+**6. Evaluation** (evaluation v2.py) STAR Optimized
 - Vectorized metrics computation
-- Performance: 47x speedup (716s → 15s)
+- Performance: 47x speedup (716s arrow 15s)
 - Realistic business simulation
 
 ---
@@ -80,34 +74,33 @@ Model Prediction → Post-Processing → Top-10 Results
 ## 2. MODEL DEVELOPMENT
 
 ### Data Pipeline
-```python
-# Temporal split (prevents data leakage)
-Train: Up to Feb 8, 2024 (164,542 interactions)
-Val: Feb 8-15, 2024 (30,753 interactions)
-Test: From Feb 15, 2024 (589,151 interactions)
-```
+
+Temporal split (prevents data leakage)
+Train: Up to February 8, 2024 (164542 interactions)
+Val: February 8-15, 2024 (30753 interactions)
+Test: From February 15, 2024 (589151 interactions)
 
 ### Feature Engineering Highlights
 
 **Top 10 Features by Importance:**
-1. user_item_similarity (embedding) ⭐
+1. user item similarity (embedding) STAR
 2. price
-3. item_popularity
-4. cart_total_price
-5. user_order_count
-6. price_vs_cart_avg
-7. item_embedding_norm ⭐
-8. cart_size
-9. category_main
-10. is_veg
+3. item popularity
+4. cart total price
+5. user order count
+6. price vs cart avg
+7. item embedding norm STAR
+8. cart size
+9. category main
+10. is veg
 
 **Key Insight:** Embedding features dominate top rankings
 
 ### Training Process
-- Samples: 1.48M (train), 277K (val), 5.3M (test)
+- Samples: 1.48 Million (train), 277K (val), 5.3 Million (test)
 - Features: 53 numeric features
 - Model: LightGBM Ranker (lambdarank objective)
-- Training time: ~12 minutes total
+- Training time: approximately 12 minutes total
 - Early stopping: 50 rounds
 
 ---
@@ -116,31 +109,31 @@ Test: From Feb 15, 2024 (589,151 interactions)
 
 ### Ranking Metrics
 
-| Metric | V1.0 (Broken) | V3.0 (Ours) | Target | Status |
-|--------|---------------|-------------|--------|--------|
-| AUC | 0.50 | **0.75-0.78** | > 0.70 | ✅ |
-| NDCG@10 | 1.00 (bug) | **0.55-0.68** | > 0.50 | ✅ |
-| Recall@10 | 0.25 | **0.60-0.70** | > 0.50 | ✅ |
-| Precision@10 | 1.00 (bug) | **0.45-0.60** | > 0.40 | ✅ |
+| Metric | V1.0 (Broken) | V3.0 (Ours) | Target |
+|--------|---------------|-------------|--------|
+| AUC | 0.50 | 0.75-0.78 | greater than 0.70 |
+| NDCG at 10 | 1.00 (bug) | 0.55-0.68 | greater than 0.50 |
+| Recall at 10 | 0.25 | 0.60-0.70 | greater than 0.50 |
+| Precision at 10 | 1.00 (bug) | 0.45-0.60 | greater than 0.40 |
 
 ### Business Metrics
 
-| Metric | V1.0 | V3.0 | Target | Status |
-|--------|------|------|--------|--------|
-| Attach Rate | 4% | **13-17%** | > 10% | ✅ |
-| AOV Lift | 4.5% | **13-22%** | > 10% | ✅ |
-| Coverage | 99.99% (bug) | **65-85%** | 60-80% | ✅ |
-| Annual Revenue | ₹648K | **₹9.18M** | - | ✅ |
+| Metric | V1.0 | V3.0 | Target |
+|--------|------|------|--------|
+| Attach Rate | 4% | 13-17% | greater than 10% |
+| AOV Lift | 4.5% | 13-22% | greater than 10% |
+| Coverage | 99.99% (bug) | 65-85% | 60-80% |
+| Annual Revenue | Rupees 648K | Rupees 9.18 Million | none |
 
 ### Performance Metrics
 
-| Metric | Target | Achieved | Status |
-|--------|--------|----------|--------|
-| Training Time | < 20min | ~12min | ✅ |
-| Inference (P95) | < 300ms | ~250ms | ✅ |
-| Throughput | > 1K req/s | 1.4K req/s | ✅ |
+| Metric | Target | Achieved |
+|--------|--------|----------|
+| Training Time | less than 20 minutes | approximately 12 minutes |
+| Inference (P95) | less than 300ms | approximately 250ms |
+| Throughput | greater than 1K requests per second | 1.4K requests per second |
 
-**All targets exceeded!** ✅
+All targets exceeded
 
 ### Segment Performance
 
@@ -152,39 +145,39 @@ Test: From Feb 15, 2024 (589,151 interactions)
 
 ### Baseline Comparison
 
-| Method | AUC | NDCG@10 | Attach Rate |
+| Method | AUC | NDCG at 10 | Attach Rate |
 |--------|-----|---------|-------------|
 | Random | 0.50 | 0.30-0.40 | 2-4% |
 | Popularity | 0.55-0.60 | 0.35-0.45 | 5-8% |
 | Co-occurrence | 0.60-0.65 | 0.40-0.50 | 7-10% |
-| **CartBoost AI** | **0.75-0.78** | **0.55-0.68** | **13-17%** |
+| CartBoost AI | 0.75-0.78 | 0.55-0.68 | 13-17% |
 
 ---
 
 ## 4. BUSINESS IMPACT
 
-### Revenue Analysis (100K orders/month)
+### Revenue Analysis (100K orders per month)
 
 | Version | Attach Rate | Avg Add | Monthly | Annual |
 |---------|-------------|---------|---------|--------|
-| V1.0 | 4% | ₹13.50 | ₹54K | ₹648K |
-| V3.0 | 15% | ₹51 | **₹765K** | **₹9.18M** |
+| V1.0 | 4% | Rupees 13.50 | Rupees 54K | Rupees 648K |
+| V3.0 | 15% | Rupees 51 | Rupees 765K | Rupees 9.18 Million |
 
-**Impact:** +₹711K monthly, +₹8.53M annually (+1,317%)
+**Impact:** plus Rupees 711K monthly, plus Rupees 8.53 Million annually (plus 1317%)
 
 ### ROI Analysis
 
 **Year 1:**
-- Development costs: ₹1,000K (one-time) + ₹1,200K (ongoing)
-- Revenue: ₹9,180K
-- Net benefit: ₹6,980K
+- Development costs: Rupees 1000K (one-time) plus Rupees 1200K (ongoing)
+- Revenue: Rupees 9180K
+- Net benefit: Rupees 6980K
 - **ROI: 317%**
 - **Payback: 2.6 months**
 
-**Year 2+:**
-- Costs: ₹1,200K (ongoing only)
-- Revenue: ₹9,180K
-- Net benefit: ₹7,980K
+**Year 2 and beyond:**
+- Costs: Rupees 1200K (ongoing only)
+- Revenue: Rupees 9180K
+- Net benefit: Rupees 7980K
 - **ROI: 665%**
 
 ### Competitive Position
@@ -192,31 +185,31 @@ Test: From Feb 15, 2024 (589,151 interactions)
 | Company | Domain | Attach Rate | Our Position |
 |---------|--------|-------------|--------------|
 | Amazon | E-commerce | 10-15% | Competitive |
-| Uber Eats | Food delivery | 8-12% | **Better** |
+| Uber Eats | Food delivery | 8-12% | Better |
 | DoorDash | Food delivery | 10-14% | Competitive |
-| Swiggy | Food delivery | 8-12% | **Better** |
-| **CartBoost AI** | **Food delivery** | **13-17%** | **Industry-leading** |
+| Swiggy | Food delivery | 8-12% | Better |
+| CartBoost AI | Food delivery | 13-17% | Industry-leading |
 
 ---
 
 ## 5. INNOVATION HIGHLIGHTS
 
-### 1. Ultra-Fast Negative Sampling ⭐
+### 1. Ultra-Fast Negative Sampling STAR
 **Innovation:** Vectorized numpy-based sampling  
-**Impact:** 100x speedup (2-3 hours → 15 seconds)  
+**Impact:** 100x speedup (2-3 hours arrow 15 seconds)  
 **Technique:** Preallocated arrays, batch processing by restaurant
 
-### 2. Embedding-Based Features ⭐
+### 2. Embedding-Based Features STAR
 **Innovation:** Word2Vec on order sequences  
-**Impact:** +5-8% AUC improvement  
-**Technique:** Learn 64-dim latent representations of items
+**Impact:** plus 5-8% AUC improvement  
+**Technique:** Learn 64-dimensional latent representations of items
 
-### 3. Vectorized Evaluation ⭐
+### 3. Vectorized Evaluation STAR
 **Innovation:** Numpy-based metric computation  
-**Impact:** 47x speedup (716s → 15s)  
+**Impact:** 47x speedup (716s arrow 15s)  
 **Technique:** Precomputed boundaries, batch operations
 
-### 4. Realistic Business Simulation ⭐
+### 4. Realistic Business Simulation STAR
 **Innovation:** Probabilistic acceptance model  
 **Impact:** Accurate revenue projections  
 **Technique:** Segment-specific, price-sensitive modeling
@@ -226,10 +219,10 @@ Test: From Feb 15, 2024 (589,151 interactions)
 ## 6. SYSTEM DESIGN
 
 ### Scalability
-- **Current:** 100K orders/day, single instance
-- **Target:** 1M orders/day with horizontal scaling
-- **Latency:** < 300ms (P95) maintained at scale
-- **Throughput:** 1.4K req/s per instance
+- **Current:** 100K orders per day, single instance
+- **Target:** 1 Million orders per day with horizontal scaling
+- **Latency:** less than 300ms (P95) maintained at scale
+- **Throughput:** 1.4K requests per second per instance
 
 ### Architecture Decisions
 
@@ -245,7 +238,7 @@ Test: From Feb 15, 2024 (589,151 interactions)
 - Tests model on future data
 - Realistic performance estimates
 
-**Why 40:1 Negative Ratio?**
+**Why 40 to 1 Negative Ratio?**
 - Harder learning problem
 - Better discrimination
 - More realistic
@@ -255,19 +248,19 @@ Test: From Feb 15, 2024 (589,151 interactions)
 - Captures semantic similarity
 - Easy to train
 - Fast inference
-- +5-8% AUC improvement
+- plus 5-8% AUC improvement
 
 ### Trade-offs
 
-**Accuracy vs Speed:**
-- Current: 53 features, ~150ms inference
+**Accuracy versus Speed:**
+- Current: 53 features, approximately 150ms inference
 - Decision: Prioritize speed for real-time use
 
-**Model Complexity vs Interpretability:**
+**Model Complexity versus Interpretability:**
 - Current: LightGBM (interpretable)
 - Decision: Prioritize interpretability for production
 
-**Training Frequency vs Cost:**
+**Training Frequency versus Cost:**
 - Current: Weekly full retraining
 - Decision: Weekly (cost-effective)
 
@@ -277,19 +270,19 @@ Test: From Feb 15, 2024 (589,151 interactions)
 
 ### Phased Rollout
 
-**Phase 1: Shadow Mode (Week 1)**
+**Phase 1 Shadow Mode (Week 1)**
 - Deploy alongside V1.0, log recommendations
 - Validate performance, monitor system health
 
-**Phase 2: A/B Test (Weeks 2-3)**
+**Phase 2 A/B Test (Weeks 2-3)**
 - 10% traffic to V3.0, 90% to V1.0
 - Compare metrics, ensure statistical significance
 
-**Phase 3: Gradual Rollout (Weeks 4-5)**
+**Phase 3 Gradual Rollout (Weeks 4-5)**
 - Week 4: 25% traffic | Week 5: 50% traffic
 - Monitor continuously
 
-**Phase 4: Full Rollout (Week 6)**
+**Phase 4 Full Rollout (Week 6)**
 - 100% traffic to V3.0
 - Decommission V1.0
 
@@ -311,13 +304,13 @@ Test: From Feb 15, 2024 (589,151 interactions)
 
 ### Environment Setup
 ```bash
-# Python 3.8+
+# Python 3.8 and higher
 pip install pandas numpy lightgbm scikit-learn gensim tqdm
 
 # Run training
 python main_v2_with_v3_embeddings.py
 
-# Expected runtime: ~12 minutes
+# Expected runtime: approximately 12 minutes
 # Output: models/ranker_v2_v3.pkl
 ```
 
@@ -334,12 +327,12 @@ Word2Vec(..., seed=42)
 ## 9. FUTURE ENHANCEMENTS
 
 ### Short-Term (1-2 months)
-1. Multi-stage ranking (200 → 30 → 10)
+1. Multi-stage ranking (200 arrow 30 arrow 10)
 2. Sequential modeling (Markov transitions)
-3. Two-model system (relevance + acceptance)
+3. Two-model system (relevance plus acceptance)
 4. Calibration (Platt scaling)
 
-**Expected:** +3-5% additional improvement
+**Expected:** plus 3-5% additional improvement
 
 ### Long-Term (3-6 months)
 1. Deep learning models (Transformers)
@@ -347,7 +340,7 @@ Word2Vec(..., seed=42)
 3. Explainability (SHAP values)
 4. Graph neural networks
 
-**Expected:** +5-10% additional improvement
+**Expected:** plus 5-10% additional improvement
 
 ---
 
@@ -357,45 +350,45 @@ Word2Vec(..., seed=42)
 
 **AUC (Area Under ROC Curve):** 0.75-0.78
 - Measures model's ability to distinguish relevant from irrelevant items
-- 0.50 = random, 0.70-0.80 = good, 0.80+ = excellent
+- 0.50 equals random, 0.70-0.80 equals good, 0.80 and higher equals excellent
 
-**NDCG@10 (Normalized Discounted Cumulative Gain):** 0.55-0.68
+**NDCG at 10 (Normalized Discounted Cumulative Gain):** 0.55-0.68
 - Ranking quality metric (position-aware)
-- 1.0 = perfect, 0.5-0.7 = good, < 0.5 = poor
+- 1.0 equals perfect, 0.5-0.7 equals good, less than 0.5 equals poor
 
-**Precision@10:** 0.45-0.60
+**Precision at 10:** 0.45-0.60
 - Fraction of top-10 recommendations that are relevant
-- 0.50 = 5 out of 10 recommendations are relevant
+- 0.50 equals 5 out of 10 recommendations are relevant
 
-**Recall@10:** 0.60-0.70
+**Recall at 10:** 0.60-0.70
 - Fraction of all relevant items found in top-10
-- 0.65 = found 65% of all relevant items
+- 0.65 equals found 65% of all relevant items
 
 ### Business Metrics (Expected Values)
 
 **Attach Rate:** 13-17%
-- % of orders with at least one accepted recommendation
+- percentage of orders with at least one accepted recommendation
 - Industry average: 8-12%, Ours: 13-17% (industry-leading)
 
 **AOV Lift:** 13-22%
-- % increase in order value from recommendations
-- ₹40-65 additional revenue per order
+- percentage increase in order value from recommendations
+- Rupees 40-65 additional revenue per order
 
 **Coverage:** 65-85%
-- % of items recommended at least once
+- percentage of items recommended at least once
 - Optimal range: 60-80%
 
 ### Operational Metrics (Expected Values)
 
-**Inference Latency (P95):** ~250ms
+**Inference Latency (P95):** approximately 250ms
 - Time to generate recommendations
-- Target: < 300ms
+- Target: less than 300ms
 
-**Throughput:** 1.4K requests/second
+**Throughput:** 1.4K requests per second
 - Number of orders processed per second
-- Scalable to 100K+ orders/day
+- Scalable to 100K plus orders per day
 
-**Training Time:** ~12 minutes
+**Training Time:** approximately 12 minutes
 - Complete pipeline execution time
 - Fast iteration for improvements
 
@@ -404,17 +397,10 @@ Word2Vec(..., seed=42)
 ## 11. CONCLUSION
 
 ### Summary
-CartBoost AI is a production-ready recommendation system that increases order value by intelligently suggesting add-on items during checkout. The system achieves industry-leading performance with 13-17% attach rate and 13-22% AOV lift, generating ₹9.18M in additional annual revenue.
+CartBoost AI is a production-ready recommendation system that increases order value by intelligently suggesting add-on items during checkout. The system achieves industry-leading performance with attach rates of 13-17%, delivering measurable revenue impact and exceptional ROI.
 
 ### Next Steps
 1. Deploy to production (phased rollout)
 2. Monitor performance and iterate
 3. Implement V3.5 enhancements (multi-stage, sequential)
 4. Scale to handle growth
-
---
-
----
-
-**Prepared by:** ERROR_404 
-**Date:** March 3, 2026  
